@@ -1,0 +1,37 @@
+
+// Get current promo popup
+.gcp-wrapper {
+
+	display: none;
+
+	.gcp {
+
+		@include centre;
+		max-width: 450px;
+		padding: $baseline*1.5 $baseline*2.5;
+		width: 90%;
+		background: $col-white;
+
+		h2 {
+
+			margin-bottom: $baseline/2;
+		}
+
+		form {
+
+			margin-top: $baseline;
+
+			input[type="email"] {
+
+				text-align: center;
+				background: $col-lightgrey;
+				border: 1px solid $col-lightgrey;
+			}
+
+			.btn {
+
+				width: 100%;
+			}
+		}
+	}
+}

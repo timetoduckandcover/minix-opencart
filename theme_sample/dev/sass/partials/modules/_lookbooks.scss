@@ -1,0 +1,27 @@
+
+#lookbooks {
+
+	li {
+
+		.lookbooks-slide {
+
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-position: fixed;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    -o-background-size: cover;
+		    background-size: cover;
+		}
+
+		.lookbook-cta {
+
+			@include centre(x);
+			bottom: 15%;
+			z-index: 999999;
+			@include font(20);
+			width: 300px;
+		}
+	}
+}

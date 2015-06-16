@@ -1,0 +1,89 @@
+
+// ============================================================
+// CORE 
+// ============================================================
+
+$background: $col-white;
+$containerWidth: 1260px;
+$containerPadding: $baseline;
+$containerCentering: true;
+$includeBorderBox: true;
+
+
+@if $includeBorderBox {
+
+	*, *:before, *:after {
+
+		@include box-sizing(border-box);
+	}
+
+}
+
+html, body {
+
+	width: 100%;
+	overflow-x: hidden;
+	color: $col-black;
+
+}
+
+body {
+
+	background: $background;
+	position: relative;
+
+}
+
+.wrapper {
+
+	width: 100%;
+	max-width: $containerWidth;
+	@include cf;
+
+	@if $containerCentering {
+
+		margin: 0 auto;
+	}
+
+	&.padding {
+
+		padding: $containerPadding;
+	}
+}
+
+.header-push {
+
+	padding: $baseline*3 0;
+
+	&.less {
+
+		padding: $baseline 0;
+	}
+
+	&.product {
+
+		padding: 0;
+
+		@include breakpoint($tablet) {
+
+			padding: $baseline 0;
+		}
+	}
+}
+
+#skip-to-content {
+
+	position: absolute;
+	top: 0;
+	left: -99999999px;
+
+	&:focus {
+
+		position: static;
+
+	}
+
+}
+
+
+// ============================================================

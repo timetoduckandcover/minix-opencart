@@ -1,0 +1,58 @@
+
+// ============================================================
+// LINKS 
+// ============================================================
+
+$linkColor: $col-black;
+
+a {
+
+	text-decoration: none;
+	color: $linkColor;
+	@include transition(all .2s ease-in-out);
+	border-bottom: 2px solid transparent;
+
+	&.underline {
+
+		text-decoration: underline;
+	}
+
+	&.upper {
+
+		text-transform: uppercase;
+	}
+
+	&.no-underline {
+
+		&:hover {
+
+			border-bottom: 2px solid transparent !important;	
+		}
+	}
+
+	// &:link {
+
+	// 	text-decoration: none;
+	// 	border: 0;
+	// }
+
+	// &:visited {
+
+	// 	text-decoration: none;
+	// 	border: 0;
+	// }
+
+	&:hover {
+
+		text-decoration: none;
+		border-bottom: 2px solid $col-lime;
+	}
+
+	&:active {
+
+		text-decoration: none;
+		border: 0;
+	}
+}
+
+// ============================================================

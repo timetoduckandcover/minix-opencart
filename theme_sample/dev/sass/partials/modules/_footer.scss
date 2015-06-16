@@ -1,0 +1,35 @@
+// ============================================================
+// FOOTER 
+// ============================================================
+
+.global-footer {
+
+	padding: $baseline 0;
+
+	h4 {
+
+		margin-bottom: $baseline*2;
+	}
+
+	.footer-newsletter {
+
+		form {
+
+			input[type="text"],
+			input[type="submit"] {
+
+				width: 100%;
+				@include font(16);
+			}
+
+			input[type="text"] {
+
+				background: $col-lightgrey;
+				//color: $col-darkgrey;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+// ============================================================

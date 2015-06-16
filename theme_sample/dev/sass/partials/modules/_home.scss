@@ -1,0 +1,89 @@
+
+.home-promos {
+
+	.home-promo {
+
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-position: fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+
+		a {
+
+			border: 0;
+
+			&:hover {
+
+				border: 0;
+			}
+		}
+
+		.caption {
+
+			text-align: center;
+		}
+
+		&.home-promo-1 {
+
+			.caption {
+
+				@include centre;
+
+				@include breakpoint($tablet) {
+
+					@include centre(y);
+					left: 10%;
+				}
+			}
+		}
+
+		&.home-promo-2 {
+
+			height: 370px;
+
+			.caption {
+
+				right: 5%;
+				position: absolute;
+				bottom: 15%;
+			}
+		}
+
+		&.home-promo-3 {
+
+			height: 370px;
+
+			.caption {
+	
+				right: 15%;
+				position: absolute;
+				bottom: 15%;
+			}
+		}
+
+		&.home-promo-4 {
+
+			height: 370px;
+
+			@include breakpoint($tablet) {
+
+				height: auto;
+			}
+
+			.caption {
+	
+				@include centre(x);
+				bottom: 15%;
+			}
+		}
+	}
+}
+
+.home-new-arrivals {
+
+	margin-top: $baseline*2;
+}

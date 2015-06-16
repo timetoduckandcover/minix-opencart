@@ -1,0 +1,182 @@
+
+// ============================================================
+// FORMS 
+// ============================================================
+
+
+$inputBorderRadius: 0;
+$inputMaxWidth: 100%;
+$textareaHeight: 260px;
+$disableFocus: true;
+
+// Button colours
+$primaryBtnCol: $col-white;
+$primaryBtnColHover: $col-white;
+$primaryBtnBg: $col-black;
+$primaryBtnBgHover: $col-lime;
+$secondaryBtnCol: $col-white;
+$secondaryBtnColHover: $col-white;
+$secondaryBtnBg: $col-blue;
+$secondaryBtnBgHover: $col-yellow;
+
+
+.btn,
+input,
+button,
+select,
+textarea {
+
+	margin: 0 0 $baseline/2 0;
+	@include border-radius($inputBorderRadius);
+	border: 1px solid $col-darkgrey;
+
+	@if $disableFocus {
+
+		&:focus {
+
+			outline: none;
+		}
+	}
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="password"] {
+
+	display: block;
+	width: 100%;
+	max-width: $inputMaxWidth;
+	padding: $baseline/2;
+}
+
+select,
+textarea {
+
+	display: block;
+	@extend input[type="text"];
+}
+
+textarea {
+
+	resize: vertical;
+	min-height: $textareaHeight;
+} 
+
+.btn,
+button,
+input[type="submit"] {
+
+	border: 1px solid $primaryBtnBg !important;
+	width: auto;
+	padding: $baseline/4 $baseline/2;
+	background: $primaryBtnBg;
+	color: $primaryBtnCol;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $gibsonlight;
+	@include transition(all .2s ease-in-out);
+
+	&.cta {
+
+		padding: $baseline/3 $baseline*2.5;
+	}
+
+	&.large {
+
+		padding: $baseline/2 $baseline 8px $baseline;
+
+		@include breakpoint($mobile) {
+
+			padding: $baseline/2 $baseline*3 8px $baseline*3;
+		}
+	}
+
+	&:hover {
+
+		color: $primaryBtnColHover;
+		background: $primaryBtnBgHover;
+		text-decoration: none;
+		border: 1px solid $primaryBtnBgHover !important;
+	}
+
+	&.secondary {
+
+		background: $secondaryBtnBg;
+		color: $secondaryBtnCol;
+
+		&:hover {
+
+			color: $secondaryBtnCol;
+			background: $secondaryBtnBgHover;
+		}
+	}
+
+	&:hover {
+
+		cursor: pointer;
+
+	}
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+
+	position: relative;
+
+	&:before {
+
+		content: '';
+		background: $col-white;
+		width: 21px;
+		height: 22px;
+		position: absolute;
+		z-index: 9;
+		background-image: url(../img/theme/radio-checkbox.png);
+		background-repeat: no-repeat;
+		background-size: 42px 21px;
+		background-position: -21px 0;
+		top: -4px;
+  		left: -1px;
+	}
+
+	&:checked {
+
+		&:before {
+
+			background-position: 0 0;
+		}
+	}
+}
+
+
+// Select dropdowns with div wrapper
+.styled-select  {
+
+	width: 100%;
+    height: 44px;
+    overflow: hidden;
+    background-image: url(../img/theme/arrow_down.png);
+    background-repeat: no-repeat;
+    background-size: 18px 12px;
+    background-position: 97% 16px;
+    border: 1px solid $col-darkgrey;
+    margin-bottom: $baseline/2;
+
+	select {
+
+		background: transparent;
+		width: 100%;
+		padding: $baseline/2;
+		line-height: 1;
+		border: 0;
+		border-radius: 0;
+		height: 44px;
+		-webkit-appearance: none;
+	}
+}
+
+
+// ============================================================

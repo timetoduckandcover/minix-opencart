@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Store 1427738660</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./assets/main.css" rel="stylesheet" type="text/css">
+  <link href="./assets/theme.css" rel="stylesheet" type="text/css" media="all">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="container">
+
+      <div class="grid">
+
+        <div class="grid__col grid__col--2-of-6">
+          <h1 class="store-name">
+            <a href="./index.html">
+              Store 1427738660
+            </a>
+          </h1>
+        </div>
+
+        <div class="grid__col grid__col--3-of-6">
+          <nav id="main-menu">
+            <a href="./index.html">Home</a>
+            <a href="./category.html">Categories</a>
+            <a href="./contact.html">Contact Us</a>
+          </nav>
+        </div>
+
+        <div class="grid__col grid__col--1-of-6">
+
+          <div id="cart-top" class="text-right">
+            <a href="./cart.html">
+              <span class="ti-shopping-cart"></span>
+              <span class="text">View Cart</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <div class="container">
+    <main id="main-content" role="main">
+      <div class="grid">
+        <!--
+            ATTENTION
+
+            We have restrictions about the HTML of this page.
+
+            In order to preserve functionality, we have defined a standard HTML
+            below that must be used in the product page.
+
+            See README.md for more instructions.
+         -->
+        <div id="product-gallery-drop" class="grid__col grid__col--6-of-12"></div>
+        <div id="product-info-drop" class="grid__col grid__col--6-of-12"></div>
+      </div>
+
+    </main>
+  </div>
+
+  <footer id="main-footer">
+    <div class="container text-center">
+      <div id="footer-copyright">2015 © SpreeWorks</div>
+      <nav id="footer-menu">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- You MAY NOT modify the html for the product-gallery -->
+  <script id="product-gallery" type="application/vnd.product-gallery-template">
+    <div id="product-images-wrapper">
+      <img id="product-main-image" class="img-responsive" src="./assets/ror_bag.jpeg" alt="Ergonomic Concrete Car">
+      <ul id="product-thumbs" >
+        <li>
+          <img class="product-images img-responsive" src="./assets/ror_bag.jpeg" alt="Ergonomic Concrete Car"/>
+        </li>
+        <li>
+          <img class="product-images img-responsive" src="./assets/ror_baseball.jpeg" alt="Ergonomic Concrete Car (blue)" />
+        </li>
+        <li>
+          <img class="product-images img-responsive" src="./assets/spree_tote_back.jpeg" />
+        </li>
+        <li>
+          <img class="product-images img-responsive" src="./assets/spree_mug.jpeg" />
+        </li>
+      </ul>
+    </div>
+  </script>
+
+  <!-- You MAY NOT modify the html for the product-info -->
+  <script id="product-info" type="application/vnd.product-info-template">
+    <h1 id="product-name">Ergonomic Concrete Car</h1>
+
+    <div id="product-description">
+      <p>Rem sapiente facilis debitis ut cupiditate aspernatur exercitationem tempore eligendi eaque excepturi ...</p>
+    </div>
+
+    <div id="product-price">$65.69</div>
+
+    <form action="./cart.html?" id="add-to-cart" method="post" role="form">
+      <input type="hidden" name="product_id" value="551990d066642d3392250000">
+      <input type="hidden" id="variant-id" name="variant_id" value="">
+
+      <div id="product-variants" class="">
+        <select id="product-option-1" name="option-Color">
+          <option selected="" required="" value="">Choose Color</option>
+          <option value="tan">tan</option>
+          <option value="blue">blue</option>
+        </select>
+
+        <select id="product-option-2" name="option-Size">
+          <option selected="" required="" value="">Choose Size</option>
+          <option value="small">small</option>
+          <option value="big">big</option>
+        </select>
+
+        <input type="number" id="product-quantity-input" name="quantity" value="1">
+      </div>
+
+      <button title="Please select Color to add to the Shipping Cart" type="submit" id="add-to-cart-button">
+        Add to Cart
+      </button>
+      <span id="out-of-stock"></span>
+    </form>
+  </script>
+
+  <script type="application/vnd.fd-product-trackinfo" id="product-trackinfo-json">
+    {"quantity":1,"track_inventory":true,"backorderable":false}
+  </script>
+
+  <script type="application/vnd.fd-variants" id="variants-json">
+    [
+      {"image":{"url":"./assets/ror_baseball.jpeg"},"id":1,"sku":"RSS63098","options":{"Color":"blue","Size":"small"},"backorderable":false,"quantity": 1,"price":"65.69"},
+      {"image":{"url":"./assets/ror_bag.jpeg"},"id":2,"sku":"ADP14545","options":{"Color":"tan","Size":"big"},"backorderable":false,"quantity": 1,"price":"36.87"},
+      {"image":{"url":"./assets/spree_tote_back.jpeg"},"id":2,"sku":"ADP14545","options":{"Color":"blue","Size":"big"},"backorderable":false,"quantity": 1,"price":"36.87"},
+      {"image":{"url":"./assets/spree_mug.jpeg"},"id":2,"sku":"ADP14545","options":{"Color":"tan","Size":"small"},"backorderable":false,"quantity": 1,"price":"36.87"}
+    ]
+  </script>
+
+  <script type="application/vnd.fd-options" id="options-json">
+    {
+      "Color":["tan","blue"],
+      "Size":["small","big"]
+    }
+  </script>
+
+  <script src="./assets/jquery.min.js"></script>
+  <script src="./assets/jquery-ui.js"></script>
+  <link href="./assets/jquery-ui.css" rel="stylesheet" type="text/css">
+
+  <script>
+    $("#product-gallery-drop").html($("#product-gallery").html())
+    $("#product-info-drop").html($("#product-info").html())
+  </script>
+
+  <script src="./assets/product.js"></script>
+  </body>
+</html>

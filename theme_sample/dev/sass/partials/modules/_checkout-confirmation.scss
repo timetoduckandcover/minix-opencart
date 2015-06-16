@@ -1,0 +1,25 @@
+
+#checkout-confirmation {
+
+	h2 {
+
+		margin-bottom: $baseline/2;
+	}
+
+	.btn {
+
+		margin-top: $baseline;
+	}
+
+	.confirmation-new-arrivals {
+
+		border-top: 1px solid $col-darkgrey;
+		margin-top: $baseline*3;
+		padding-top: $baseline*2;
+
+		h3 {
+
+			text-align: center;
+		}
+	}
+}

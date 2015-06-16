@@ -1,0 +1,172 @@
+
+//====================
+// 1. Shipping options
+//====================
+#checkout-shipping {
+
+	h2 {
+
+		margin-bottom: $baseline/2;
+	}
+
+	.shipping-details {
+
+		margin-bottom: $baseline*2;
+
+		.checkout-new-address {
+
+			display: none;
+
+			form {
+
+				.add-new-address-btn {
+
+					width: 100%;
+					background: $col-white;
+					color: $col-black;
+					text-align: left;
+					height: 44px;
+
+					&:hover {
+
+						background: $col-lime;
+					}
+				}
+			}
+		}
+	}
+
+	.shipping-gift {
+
+		margin-bottom: $baseline*2;
+
+		.shipping-gift-true {
+
+			ul {
+
+				li {
+
+					margin-bottom: $baseline/2;
+
+					.title {
+
+						text-transform: uppercase;
+					}
+
+					.message {
+
+						display: block;
+					}
+
+					.edit-gift-card {
+
+						margin-right: $baseline/2;
+					}
+				}
+			}
+		}
+	}
+
+	.shipping-options {
+
+		margin-bottom: $baseline;
+
+		label {
+
+			margin-left: $baseline/2;
+		}
+	}
+}
+
+
+
+// Gift card overlay
+.add-gift-card-wrapper {
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255,255,255,.85);
+	z-index: 9999999;	
+	display: none;
+
+	.gift-card {
+
+		@include centre;
+		width: 100%;
+		max-width: 550px;
+		background: $col-white;
+		border: 2px solid $col-black;
+		text-align: center;
+		padding: $baseline*1.5 $baseline*5;
+
+		h2 {
+
+			margin-bottom: $baseline/2;
+		}
+
+		span {
+
+			margin: $baseline 0;
+		}
+
+		.btn {
+
+			padding: $baseline/2 $baseline*2.5 8px $baseline*2.5;
+		}
+	}
+
+	.gift-card-back {
+
+		display: none;
+
+		.gift-card-details {
+
+			text-align: left !important;
+
+			label {
+
+				font-family: $gibsonsemibold;
+				text-transform: uppercase;
+				text-indent: 10px;
+				display: block;
+			}
+
+			li {
+
+				position: relative;
+
+				.gift-card-textarea-msg {
+
+					  position: absolute;
+					  right: 30px;
+					  bottom: -4px;
+					  @include font(13);
+					  color: $col-lightgrey;
+				}
+			}
+		}
+
+		textarea {
+
+			resize: none;
+			height: 170px;
+			min-height: 1px;
+		}
+
+		.btn {
+
+			margin-top: $baseline*2;
+		}
+	}
+}
+
+
+
+
+
+
+
+
