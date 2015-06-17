@@ -21,7 +21,8 @@
 
           <div class="caption">
 
-            <h2 class="epsilon"><?php echo $product['name']; ?></h2>
+            <h2 class="epsilon">[Need php hook for related product manufacturer]</h2>
+            <span class="short-description"><?php echo $product['name']; ?></span>
 
            <!--  <p><?php echo $product['description']; ?></p>
             <?php if ($product['rating']) { ?>

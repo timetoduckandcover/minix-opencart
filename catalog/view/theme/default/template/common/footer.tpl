@@ -47,10 +47,7 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="catalog/view/javascript/main.js" type="text/javascript"></script>
-  <?php foreach ($scripts as $script) { ?>
-    <script src="<?php echo $script; ?>" type="text/javascript"></script>
-  <?php } ?>
+  <script src="catalog/view/javascript/main.min.js" type="text/javascript"></script>
   <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 
 </body>
