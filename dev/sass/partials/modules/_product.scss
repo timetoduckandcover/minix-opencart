@@ -82,7 +82,7 @@
 						clear: left;
 					}
 
-					a {
+					label {
 
 						padding: $baseline/2 4px;
 						border: 1px solid $col-black;
@@ -91,6 +91,7 @@
 						background: $col-white;
 						color: $col-black;
 						@include transition(all .1s ease-in-out);
+						position: relative;
 
 						@include breakpoint($mobile) {
 
@@ -133,12 +134,13 @@
 		// Add to cart button
 		.add-to-cart {
 
-			input {
+			a {
 
 				width: 100%;
 				font-family: $gibsonregular;
 				padding: $baseline/2 $baseline;
 				@include font(26);
+				text-align: center;
 			}
 		}
 
@@ -236,4 +238,9 @@
 			font-family: $gibsonregular;
 		}
 	}
+}
+
+.sale {
+
+	text-decoration: line-through;
 }

@@ -14,11 +14,11 @@
 	});
 
 	// Product variants - add active class on click unless sold out
-	$('.product-variants a').on("click", function() {
+	$('.product-variants li input').on("click", function() {
 
 		if (!$(this).hasClass('sold-out')) {
 
-			$('.product-variants a').removeClass('active');
-			$(this).addClass('active');
+			$('.product-variants li label').removeClass('active');
+			$(this).parent().addClass('active');
 		} 
 	});

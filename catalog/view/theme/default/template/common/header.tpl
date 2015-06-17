@@ -26,11 +26,6 @@
   <?php } ?>
   
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-
-  <!-- remove below once figured out what this does, option to add styles in cms maybe? -->
-  <?php foreach ($styles as $style) { ?>
-  <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
-  <?php } ?>
   
   <?php echo $google_analytics; ?>
 
