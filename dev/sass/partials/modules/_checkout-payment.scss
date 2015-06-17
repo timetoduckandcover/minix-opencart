@@ -1,0 +1,130 @@
+
+
+#checkout-payment {
+
+	h2 {
+
+		margin-bottom: $baseline/2;
+	}
+
+	.payment-details {
+
+		.payment-type {
+
+			& > ul {
+
+				& > li.card-labels {
+
+					border: 1px solid $col-darkgrey;
+					height: 44px;
+					width: 100%;
+					padding: $baseline/2;
+					margin-bottom: $baseline/2;
+					@include cf;
+
+					.name {
+
+						padding-left: $baseline/2;
+					}
+
+					.card-inputs {
+
+						float: right;
+						margin: -4px 0 0 0;
+
+						input {
+
+							background: $col-lightgrey;
+							border: 1px solid $col-darkgrey;
+							height: 30px;
+							padding: 0;
+							margin: 0;
+							text-align: center;
+							display: inline-block;
+							width: 60px;
+							margin-left: $baseline/4;
+							@include transition(all .1s ease-in-out);
+
+							&.invalid-character {
+
+								background: $col-red;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.new-billing-profile-link {
+
+			line-height: $baseline*3;
+		}
+
+		.new-billing-profile {
+
+			display: none;
+
+			li {
+
+				&.new-billing-profile-item {
+
+					margin-top: $baseline;
+
+					label {
+
+						margin-bottom: $baseline/2;
+						display: block;
+					}
+
+					.expiry-wrapper {
+
+						@include cf;
+
+						.expiry-holder {
+
+							width: 30%;
+							float: left;
+							margin-right: 5%;
+
+							&:last-child {
+
+								margin-right: 0;
+							}
+						}
+					}		
+				}
+			}
+		}
+	}
+
+	.billing-address-area {
+
+		margin-top: $baseline;
+
+		.billing-address-question {
+
+			border: 1px solid $col-darkgrey;
+			height: 44px;
+			padding: $baseline/2;
+			margin-bottom: $baseline/2;
+
+			label {
+
+				padding-left: $baseline/2;
+			}
+		}
+
+		.same-as-shipping-address {
+
+			display: none;
+			border: 1px solid $col-darkgrey;
+			padding: $baseline/2;
+			margin-bottom: $baseline;
+
+			span {
+
+				display: block;
+			}
+		}
+	}
+}

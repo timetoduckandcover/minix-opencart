@@ -1,0 +1,43 @@
+
+
+#page-with-sidebar {
+
+	// Page grey header
+	.pws-header {
+
+		background: $col-lightgrey;
+		text-align: center;
+		padding: $baseline*2 $baseline;
+
+		h1 {
+
+			@include font(28);
+		}
+	}
+
+	.page-wyziwig {
+
+		img {
+
+			max-width: 500px;
+			width: 100%;
+			display: block;
+			margin-bottom: $baseline;
+		}
+	}
+}
+
+// Page sidebar
+#pws-sidebar {
+
+	h3 {
+
+		margin-bottom: $baseline/2;
+	}
+
+	a {
+
+		text-transform: uppercase;
+		line-height: 29px;
+	}
+}

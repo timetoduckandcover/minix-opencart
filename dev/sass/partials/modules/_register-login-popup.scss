@@ -1,0 +1,91 @@
+
+
+.rlp-wrapper {
+
+	display: none;
+
+	.rlp {
+
+		@include centre;
+		width: 90%;
+		max-width: 450px;
+		background: $col-white;
+		padding: $baseline*1.5 $baseline*2.5;
+
+		.rlp-login-section {
+
+			display: none;
+		}
+
+		h2 {
+
+			margin-bottom: $baseline/2;
+		}
+
+		form {
+
+			margin-top: $baseline;
+
+			input[type="text"],
+			input[type="password"] {
+
+				background: $col-lightgrey;
+				border: 1px solid $col-lightgrey;
+				text-align: center;
+			}
+
+			.social-login {
+
+				@include cf;
+				text-align: center;
+				margin: $baseline 0;
+
+				a {
+
+					display: block;
+					height: 44px;
+					border: 1px solid $col-black;
+					width: 100%;
+					line-height: 42px;
+					@include transition(all .2s ease-in-out);
+					@include breakpoint($mobile) {
+
+						width: 48%;
+					}
+
+					&:hover {
+
+						background: $col-black;
+						color: $col-white;
+					}
+
+					&.fb {
+
+						margin-bottom: $baseline/2;
+
+						@include breakpoint($mobile) {
+
+							float: left;
+							margin-bottom: 0;
+						}
+					}
+
+					&.google {
+
+						@include breakpoint($mobile) {
+
+							float: right;
+						}
+					}
+				}
+			}
+
+			.or {
+
+				margin: $baseline/2 0 $baseline 0;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
