@@ -2221,6 +2221,11 @@ table th, table td {
   padding-left: 0;
 }
 
+/* line 3, ../../../../../dev/sass/partials/modules/_content.scss */
+.global-content {
+  min-height: 500px;
+}
+
 /* line 4, ../../../../../dev/sass/partials/modules/_home.scss */
 .home-promos .home-promo {
   position: relative;
