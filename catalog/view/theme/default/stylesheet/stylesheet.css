@@ -2472,7 +2472,7 @@ table th, table td {
 @media (min-width: 450px) {
   /* line 85, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-variants ul li label {
-    padding: 10px;
+    padding: 10px 0;
   }
 }
 /* line 101, ../../../../../dev/sass/partials/modules/_product.scss */

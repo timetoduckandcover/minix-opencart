@@ -34,7 +34,6 @@
 
 <body class="<?php echo $class; ?>">
 
-
   <!-- If user is not logged in, show promo banner -->
   <?php if (!$logged) { ?>
     <div class="header-promo-banner">
@@ -44,7 +43,6 @@
     </div>
   <?php } ?>
   <!-- -->
-
 
   <header class="global-header">
      <div class="wrapper">
@@ -57,7 +55,7 @@
           </a>
           <ul class="burger-nav desktop">
             <li>
-              <a href="about.php">About</a>
+              <a href="/about_us">About</a>
             </li>
             <li>
               <a href="vip.php">VIP Members</a>
@@ -96,7 +94,7 @@
                 <?php include('catalog/view/theme/default/template/partials/header-sub-nav.php');?>
               </li>
               <li>
-                <a href="about.php">About</a>
+                <a href="/about_us">About</a>
               </li>
               <li>
                 <a href="lookbooks.php">Lookbooks</a>

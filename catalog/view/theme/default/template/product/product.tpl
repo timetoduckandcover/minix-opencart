@@ -104,6 +104,24 @@
             <!-- Product Variants -->
             <?php include('catalog/view/theme/default/template/partials/product-options.php');?>
 
+            <!-- Tabs -->
+            <?php if ($attribute_groups) { ?>
+              <?php foreach ($attribute_groups as $attribute_group) { ?>
+                <div class="product-tabs">
+                  <ul>
+                    <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+                    <li>
+                      <a href="javascript:;" class="product-tab-header"><?php echo $attribute['name']; ?></a>
+                      <div class="product-tab-content">
+                        <p><?php echo $attribute['text']; ?></p>
+                      </div>
+                    </li>
+                    <?php } ?>
+                  </ul>
+                </div>
+              <?php } ?>
+            <?php } ?>
+
             <!-- Add to cart -->
             <div class="add-to-cart">
               <a href="javascript:;" type="submit" class="btn block" id="button-cart">Add to bag</a>

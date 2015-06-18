@@ -1995,6 +1995,7 @@ $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 
 // Set first variant to active and pass value to hidden field on page load 
 var getInitialVariant = $('.product-variants li:first label input').val();
+$('.product-variants li:first label').addClass('active');
 $('#product-option-value').val(getInitialVariant);
 
 // On variant change, pass ID to hidden field
