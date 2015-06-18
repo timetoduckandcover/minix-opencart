@@ -59,15 +59,16 @@ class ControllerModuleFeatured extends Controller {
 					}
 
 					$data['products'][] = array(
-						'product_id'  => $product_info['product_id'],
-						'thumb'       => $image,
-						'name'        => $product_info['name'],
-						'description' => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
-						'price'       => $price,
-						'special'     => $special,
-						'tax'         => $tax,
-						'rating'      => $rating,
-						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
+						'product_id'    => $product_info['product_id'],
+						'thumb'         => $image,
+						'name'          => $product_info['name'],
+						'description'   => utf8_substr(strip_tags(html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
+						'price'         => $price,
+						'special'       => $special,
+						'manufacturer'  => $product_info['manufacturer'],
+						'tax'           => $tax,
+						'rating'        => $rating,
+						'href'          => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
 					);
 				}
 			}

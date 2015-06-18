@@ -3,6 +3,7 @@ class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');
 
+		// Text for footer
 		$data['text_information'] = $this->language->get('text_information');
 		$data['text_service'] = $this->language->get('text_service');
 		$data['text_extra'] = $this->language->get('text_extra');
@@ -17,11 +18,14 @@ class ControllerCommonFooter extends Controller {
 		$data['text_order'] = $this->language->get('text_order');
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
+		$data['text_vip'] = $this->language->get('text_vip');
+		$data['text_faq'] = $this->language->get('text_faq');
 
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
 
+		// Create Information linklist array
 		foreach ($this->model_catalog_information->getInformations() as $result) {
 			if ($result['bottom']) {
 				$data['informations'][] = array(
@@ -31,7 +35,9 @@ class ControllerCommonFooter extends Controller {
 			}
 		}
 
+		// Create links
 		$data['contact'] = $this->url->link('information/contact');
+		$data['vip'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');
 		$data['sitemap'] = $this->url->link('information/sitemap');
 		$data['manufacturer'] = $this->url->link('product/manufacturer');

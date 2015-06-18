@@ -15,7 +15,7 @@
       <!-- Content -->
       <div class="row">
         <div class="col-xs-12 col-md-3">
-     <!--      <?php include('partials/pages/page-partials/page-sidebar.php');?> -->
+          <?php include('catalog/view/theme/default/template/partials/informationsidebar.tpl');?>
         </div>
         <div class="col-xs-12 col-md-9 page-wyziwig">
 

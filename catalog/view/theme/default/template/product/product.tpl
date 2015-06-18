@@ -68,8 +68,8 @@
                 <div class="price">
                   <span class="price-left">
                     <?php if ($special) { ?>
-                      <?php echo $price; ?> Store
-                      <?php echo $special; ?> Sale
+                      <span class="sale"><?php echo $price; ?></span>
+                      <?php echo $special; ?>
                     <?php } else { ?>
                       <?php echo $price; ?> Store
                     <?php } ?>
@@ -104,21 +104,38 @@
             <!-- Product Variants -->
             <?php include('catalog/view/theme/default/template/partials/product-options.php');?>
 
+            <!-- Extra Message -->
+            <?php if($attribute_groups){ ?>
+              <?php foreach ($attribute_groups as $attribute_group) { ?>
+                <?php if($attribute_group['name'] == 'Product Free Shipping') { ?>
+                    <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+                      <span class="extra-message">
+                        <strong><?php echo $attribute['name']; ?></strong> 
+                        <?php echo $attribute['text']; ?>
+                      </span>
+                    <?php } ?>
+                <?php } ?>
+              <?php } ?>
+            <?php } ?>
+            
+
             <!-- Tabs -->
             <?php if ($attribute_groups) { ?>
               <?php foreach ($attribute_groups as $attribute_group) { ?>
-                <div class="product-tabs">
-                  <ul>
-                    <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
-                    <li>
-                      <a href="javascript:;" class="product-tab-header"><?php echo $attribute['name']; ?></a>
-                      <div class="product-tab-content">
-                        <p><?php echo $attribute['text']; ?></p>
-                      </div>
-                    </li>
-                    <?php } ?>
-                  </ul>
-                </div>
+                <?php if($attribute_group['name'] != 'Product Free Shipping') { ?>
+                  <div class="product-tabs">
+                    <ul>
+                      <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+                        <li>
+                          <a href="javascript:;" class="product-tab-header"><?php echo $attribute['name']; ?></a>
+                          <div class="product-tab-content">
+                            <p><?php echo $attribute['text']; ?></p>
+                          </div>
+                        </li>
+                      <?php } ?>
+                    </ul>
+                  </div>
+                <?php } ?>
               <?php } ?>
             <?php } ?>
 
