@@ -20,6 +20,7 @@ class ControllerCommonFooter extends Controller {
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
 		$data['text_vip'] = $this->language->get('text_vip');
 		$data['text_faq'] = $this->language->get('text_faq');
+		$data['text_social'] = $this->language->get('text_social');
 
 		$this->load->model('catalog/information');
 
@@ -37,7 +38,6 @@ class ControllerCommonFooter extends Controller {
 
 		// Create links
 		$data['contact'] = $this->url->link('information/contact');
-		$data['vip'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');
 		$data['sitemap'] = $this->url->link('information/sitemap');
 		$data['manufacturer'] = $this->url->link('product/manufacturer');

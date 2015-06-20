@@ -26,6 +26,11 @@
   <?php } ?>
   
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <?php foreach ($scripts as $script) { ?>
+  <script src="<?php echo $script; ?>" type="text/javascript"></script>
+  <?php } ?>
   
   <?php echo $google_analytics; ?>
 

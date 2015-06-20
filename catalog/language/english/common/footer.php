@@ -1,11 +1,12 @@
 <?php
 // Text
-$_['text_information']  = 'Information';
-$_['text_service']      = 'Customer Service';
+$_['text_information']  = 'Mini X Company';
+$_['text_service']      = 'Customer Care';
 $_['text_extra']        = 'Extras';
 $_['text_contact']      = 'Contact Us';
 $_['text_return']       = 'Returns';
 $_['text_sitemap']      = 'Site Map';
+$_['text_social']       = 'Find Us On';
 $_['text_manufacturer'] = 'Brands';
 $_['text_voucher']      = 'Gift Vouchers';
 $_['text_vip']          = 'VIP Membership';

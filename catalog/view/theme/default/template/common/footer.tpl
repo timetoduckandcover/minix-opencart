@@ -6,8 +6,7 @@
       <div class="row">
         <?php if ($informations) { ?>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <!-- <h5><?php echo $text_information; ?></h5> -->
-          <h4 class="epsilon">Mini X Company</h4>
+          <h4 class="epsilon"><?php echo $text_information; ?></h4>
           <ul>
             <?php foreach ($informations as $information) { ?>
               <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
@@ -17,8 +16,7 @@
         </div>
         <?php } ?>
         <div class="col-xs-12 col-sm-6 col-md-3">
-          <!-- <h4 class="epsilon"><?php echo $text_service; ?></h4> -->
-          <h4 class="epsilon">Customer Care</h4>
+          <h4 class="epsilon"><?php echo $text_service; ?></h4>
           <ul>
             <li><a href="/frequently-asked-questions"><?php echo $text_faq; ?></a></li>
             <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
@@ -26,6 +24,10 @@
           </ul>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
+          <h4 class="epsilon"><?php echo $text_social; ?></h4>
+          <?php include('catalog/view/theme/default/template/partials/social.php');?>
+        </div>
+       <!--  <div class="col-xs-12 col-sm-6 col-md-3">
           <h4 class="epsilon"><?php echo $text_extra; ?></h4>
           <ul>
             <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
@@ -38,7 +40,7 @@
             <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
             <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="col-xs-12 col-sm-6 col-md-3">
             <h4 class="epsilon">Join Our Newsletter</h4>
             <div class="footer-newsletter">
