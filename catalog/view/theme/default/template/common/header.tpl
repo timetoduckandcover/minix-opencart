@@ -39,6 +39,11 @@
 
 <body class="<?php echo $class; ?>">
 
+  <!-- Register/Login Popup -->
+  <?php if (!$logged) { ?>
+    <?php include('catalog/view/theme/default/template/partials/register-login-popup.php');?>
+  <?php } ?>
+
   <!-- If user is not logged in, show promo banner -->
   <?php if (!$logged) { ?>
     <div class="header-promo-banner">
@@ -125,7 +130,11 @@
                 <a href="javascript:;" class="raf-link">Get $20</a>
               </li>
               <li>
-                <a href="javascript:;" class="sign-in-link">Sign in</a>
+                <?php if ($logged) : ?>
+                  <a href="<?php echo $account; ?>">Account</a> 
+                <?php else : ?>
+                  <a href="javascript:;" class="sign-in-link">Sign in</a>
+                <?php endif;?>
                 <!-- If signed in, show the below and hide the above -->
                 <!-- <a href="account.php">Account</a> -->
               </li>
@@ -139,7 +148,7 @@
      </div>
   </header>
   <!-- end static header -->
-<!-- 
+ 
   <nav id="top">
     <div class="container">
       <?php echo $currency; ?>
@@ -168,7 +177,7 @@
       </div>
     </div>
   </nav>
- -->
+
 <!-- 
   <header>
     <div class="container">

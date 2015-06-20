@@ -57,6 +57,8 @@
     </div>
   </footer>
 
+  
+
   <!-- Scripts -->
   <script src="catalog/view/javascript/main.min.js" type="text/javascript"></script>
   <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
