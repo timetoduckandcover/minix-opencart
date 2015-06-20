@@ -26,11 +26,6 @@
   <?php } ?>
   
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-  <?php foreach ($scripts as $script) { ?>
-  <script src="<?php echo $script; ?>" type="text/javascript"></script>
-  <?php } ?>
   
   <?php echo $google_analytics; ?>
 
@@ -83,7 +78,8 @@
               <a href="page-with-sidebar.php">Gift Cards</a>
             </li>
             <li>
-              <a href="/">$USD | United States</a>
+              <a href="javascript:;" class="select-currency">$USD | United States</a>
+              <?php echo $currency; ?>
             </li>
             <li>
               <a href="page-with-sidebar.php">Contact Us</a>
@@ -104,7 +100,7 @@
                 <?php include('catalog/view/theme/default/template/partials/header-sub-nav.php');?>
               </li>
               <li>
-                <a href="/about_us">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
                 <a href="lookbooks.php">Lookbooks</a>
@@ -124,7 +120,7 @@
           <nav class="nav-right visible-nav">
             <ul>
               <li>
-                <a href="page-with-sidebar.php">Help</a>
+                <a href="/help">Help</a>
               </li>
               <li>
                 <a href="javascript:;" class="raf-link">Get $20</a>
@@ -151,15 +147,14 @@
  
   <nav id="top">
     <div class="container">
-      <?php echo $currency; ?>
       <?php echo $language; ?>
       <div id="top-links" class="nav pull-right">
         <ul class="list-inline">
           <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
-          <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
+          <li class="dropdown"><!-- <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a> -->
             <ul class="dropdown-menu dropdown-menu-right">
               <?php if ($logged) { ?>
-              <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+             <!--  <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li> -->
               <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
               <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
               <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>

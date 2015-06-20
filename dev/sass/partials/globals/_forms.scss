@@ -44,7 +44,8 @@ input[type="date"],
 input[type="email"],
 input[type="number"],
 input[type="search"],
-input[type="password"] {
+input[type="password"],
+input[type="tel"] {
 
 	display: block;
 	width: 100%;
@@ -92,6 +93,24 @@ input[type="submit"] {
 
 			padding: $baseline/2 $baseline*3 8px $baseline*3;
 		}
+	}
+
+	&.currency-select {
+
+		background: none;
+		color: $col-black;
+		border: 0 !important;
+  		padding: 0;
+  		margin: 0;
+
+  		&:hover {
+
+  			background: none !important;
+  			color: $col-lime !important;
+  			border: 0 !important;
+	  		padding: 0;
+	  		margin: 0;
+  		}
 	}
 
 	&:hover {

@@ -105,6 +105,12 @@ setTimeout(function() {
 }, 2000);
 
 
+// Toggle currency menu
+$('.select-currency').on("click", function() {
+
+	$('#currency').slideToggle();
+});
+
 
 
 
