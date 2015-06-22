@@ -307,6 +307,11 @@ $header-height: $baseline*3;
 
 		display: block;
 
+		&.currency-list-item {
+
+			margin: $baseline/2 0;
+		}
+
 		a {
 
 			color: $col-black;

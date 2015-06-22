@@ -83,9 +83,11 @@
 
                       <?php if ($product['option']) { ?>
                         <?php foreach ($product['option'] as $option) { ?>
-                        <span class="variant block"><?php echo $option['name']; ?>: <?php echo $option['value']; ?></span>
+                          <span class="variant block"><?php echo $option['name']; ?>: <?php echo $option['value']; ?></span>
                         <?php } ?>
                       <?php } ?>
+
+                      <?php echo $product['option']; ?>
                       
                     </div>
                     <div class="col-xs-12 col-md-1 cart-pull-right">

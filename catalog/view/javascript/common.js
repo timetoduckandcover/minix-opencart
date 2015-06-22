@@ -45,11 +45,14 @@ $(document).ready(function() {
 		
 	// Currency
 	$('#currency .currency-select').on('click', function(e) {
+
 		e.preventDefault();
 
 		$('#currency input[name=\'code\']').attr('value', $(this).attr('name'));
 
 		$('#currency').submit();
+
+
 	});
 
 	// Language

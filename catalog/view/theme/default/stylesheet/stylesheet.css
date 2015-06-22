@@ -186,8 +186,9 @@ em {
 .alert {
   display: block;
   margin: 10px 0 20px 0;
+  max-width: 550px;
 }
-/* line 110, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 111, ../../../../../dev/sass/partials/globals/_typography.scss */
 .alert.alert-danger {
   color: #c97386;
 }
@@ -2060,6 +2061,10 @@ table th, table td {
   display: block;
 }
 /* line 310, ../../../../../dev/sass/partials/modules/_header.scss */
+.burger-nav li.currency-list-item {
+  margin: 10px 0;
+}
+/* line 315, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav li a {
   color: #222222;
   text-transform: uppercase;
@@ -2073,31 +2078,31 @@ table th, table td {
   padding-bottom: 4px;
   line-height: 30px;
 }
-/* line 319, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 324, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav li a:hover {
   text-decoration: none;
 }
-/* line 328, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 333, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.desktop a {
   font-family: "GibsonLight", arial, sans-serif;
 }
-/* line 336, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 341, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.mobile a {
   font-family: "GibsonSemiBold", arial, sans-serif;
 }
-/* line 340, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 345, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.mobile a:hover {
   border: 0;
 }
-/* line 347, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 352, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.mobile a.has-mobile-sub-nav:after {
   content: '>';
 }
-/* line 354, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 359, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.mobile .mobile-sub-nav {
   margin-top: 10px;
 }
-/* line 358, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 363, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger-nav.mobile .mobile-sub-nav a {
   font-family: "GibsonRegular", arial, sans-serif;
   text-indent: 13.33333px;
@@ -2105,7 +2110,7 @@ table th, table td {
   line-height: 26px;
 }
 
-/* line 369, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 374, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger {
   height: 26px;
   width: 29px;
@@ -2113,22 +2118,22 @@ table th, table td {
   position: relative;
 }
 @media (min-width: 767px) {
-  /* line 369, ../../../../../dev/sass/partials/modules/_header.scss */
+  /* line 374, ../../../../../dev/sass/partials/modules/_header.scss */
   .burger {
     position: absolute;
     top: 18px;
     left: 20px;
   }
 }
-/* line 383, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 388, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger:hover {
   border: none;
 }
-/* line 387, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 392, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger:hover i {
   background: #6ee1cd;
 }
-/* line 393, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 398, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger i {
   width: 30px;
   height: 5px;
@@ -2147,15 +2152,15 @@ table th, table td {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 405, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 410, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger i.top {
   top: 0;
 }
-/* line 410, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 415, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger i.middle {
   top: 10px;
 }
-/* line 415, ../../../../../dev/sass/partials/modules/_header.scss */
+/* line 420, ../../../../../dev/sass/partials/modules/_header.scss */
 .burger i.bottom {
   bottom: 0;
 }

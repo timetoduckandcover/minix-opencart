@@ -78,10 +78,33 @@
             <li>
               <a href="page-with-sidebar.php">Gift Cards</a>
             </li>
-            <li>
-              <a href="javascript:;" class="select-currency">$USD | United States</a>
-              <?php echo $currency; ?>
-            </li>
+
+            <?php if($currency) { 
+  
+                $selectedCurrency = $_SESSION['currency'];
+
+                if($selectedCurrency == 'USD') {
+
+                  $selectedCurrency = "$" . $selectedCurrency . " | United States";
+                };
+                if($selectedCurrency == 'GBP') {
+
+                  $selectedCurrency = "£" . $selectedCurrency . " | United Kingdom";
+                };
+                if($selectedCurrency == 'EUR') {
+
+                  $selectedCurrency = "€" . $selectedCurrency . " | Europe";
+                };
+
+              ?>
+
+              <li class="currency-list-item">
+                <a href="javascript:;" class="select-currency"><?php echo $selectedCurrency; ?></a>
+                <?php echo $currency; ?>
+              </li>
+              
+            <?php } ?>
+
             <li>
               <a href="page-with-sidebar.php">Contact Us</a>
             </li>
@@ -132,8 +155,6 @@
                 <?php else : ?>
                   <a href="javascript:;" class="sign-in-link">Sign in</a>
                 <?php endif;?>
-                <!-- If signed in, show the below and hide the above -->
-                <!-- <a href="account.php">Account</a> -->
               </li>
               <li class="cart-link">
                 <a href="<?php echo $shopping_cart; ?>" class="no-underline"><i class="header-cart-count">0</i></a>
