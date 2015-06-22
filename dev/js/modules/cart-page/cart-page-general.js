@@ -18,6 +18,8 @@
 
 	$minus.on("click", function() {
 
+		console.log("minus")
+
 		var $numinput = $(this).parent().find('.quantity-number');
 
 	   if ($numinput.val() > 0) {
@@ -27,6 +29,8 @@
 	});
 
 	$plus.on("click", function() {
+
+		console.log("plus")
 
 		var $numinput = $(this).parent().find('.quantity-number');
 

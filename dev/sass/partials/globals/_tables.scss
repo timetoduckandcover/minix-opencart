@@ -23,4 +23,14 @@ table {
 
 }
 
+.pws-table {
+
+	margin-bottom: $baseline/2;
+
+	th, td {
+
+		padding: $baseline/2 0;
+	}
+}
+
 // ============================================================

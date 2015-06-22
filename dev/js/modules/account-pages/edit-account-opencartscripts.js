@@ -66,15 +66,15 @@
   	}, 500);
   });
 
-  $('.date').datetimepicker({
-  	pickTime: false
-  });
+  // $('.date').datetimepicker({
+  // 	pickTime: false
+  // });
 
-  $('.datetime').datetimepicker({
-  	pickDate: true,
-  	pickTime: true
-  });
+  // $('.datetime').datetimepicker({
+  // 	pickDate: true,
+  // 	pickTime: true
+  // });
 
-  $('.time').datetimepicker({
-  	pickDate: false
-  });
+  // $('.time').datetimepicker({
+  // 	pickDate: false
+  // });

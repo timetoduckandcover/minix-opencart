@@ -4,8 +4,6 @@
   <div id="cart-page">
     <div class="wrapper padding">
 
-
-
         <!-- Error handling -->
         <?php if ($attention) { ?>
           <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $attention; ?>
@@ -23,7 +21,6 @@
           </div>
         <?php } ?>
         <!-- end error handling -->
-
 
         <!-- Cart header -->
         <div class="row mb">
@@ -203,8 +200,9 @@
               <div class="pull-left"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
               <div class="pull-right"><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
             </div>
+     <!--        
             <?php echo $content_bottom; ?></div>
-          <?php echo $column_right; ?></div>
+          <?php echo $column_right; ?></div> -->
 
     </div>
   </div>

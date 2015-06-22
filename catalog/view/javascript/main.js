@@ -1766,18 +1766,18 @@ $('select[name=\'country_id\']').trigger('change');
   	}, 500);
   });
 
-  $('.date').datetimepicker({
-  	pickTime: false
-  });
+  // $('.date').datetimepicker({
+  // 	pickTime: false
+  // });
 
-  $('.datetime').datetimepicker({
-  	pickDate: true,
-  	pickTime: true
-  });
+  // $('.datetime').datetimepicker({
+  // 	pickDate: true,
+  // 	pickTime: true
+  // });
 
-  $('.time').datetimepicker({
-  	pickDate: false
-  });
+  // $('.time').datetimepicker({
+  // 	pickDate: false
+  // });
 
 
 	// Get height of VIP image
@@ -1799,6 +1799,8 @@ $('select[name=\'country_id\']').trigger('change');
 
 	$minus.on("click", function() {
 
+		console.log("minus")
+
 		var $numinput = $(this).parent().find('.quantity-number');
 
 	   if ($numinput.val() > 0) {
@@ -1808,6 +1810,8 @@ $('select[name=\'country_id\']').trigger('change');
 	});
 
 	$plus.on("click", function() {
+
+		console.log("plus")
 
 		var $numinput = $(this).parent().find('.quantity-number');
 

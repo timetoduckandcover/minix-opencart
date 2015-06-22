@@ -26,6 +26,9 @@
 
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
   <script src="catalog/view/theme/default/javascript/jquery.js"></script>
+  <!--<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+  <script src="catalog/view/javascript/jquery/datetimepicker/moment.js"></script>
+  <script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js"></script>-->
 
   <?php echo $google_analytics; ?>
 </head>

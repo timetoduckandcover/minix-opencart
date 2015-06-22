@@ -127,12 +127,12 @@ $(document).ready(function() {
 	}
 
 	// tooltips on hover
-	$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
+	// $('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 
 	// Makes tooltips work on ajax generated content
-	$(document).ajaxStop(function() {
-		$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
-	});
+	// $(document).ajaxStop(function() {
+	// 	$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
+	// });
 });
 
 // Cart add remove functions
@@ -203,12 +203,12 @@ var cart = {
 			type: 'post',
 			data: 'key=' + key,
 			dataType: 'json',
-			beforeSend: function() {
-				$('#cart > button').button('loading');
-			},
-			complete: function() {
-				$('#cart > button').button('reset');
-			},			
+			// beforeSend: function() {
+			// 	$('#cart > button').button('loading');
+			// },
+			// complete: function() {
+			// 	$('#cart > button').button('reset');
+			// },			
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
