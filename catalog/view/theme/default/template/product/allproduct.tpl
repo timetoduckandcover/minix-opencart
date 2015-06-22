@@ -32,6 +32,7 @@
 
                       <a href="<?php echo $product['href']; ?>">
                         <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-full" />
+                        <h2 class="epsilon"><?php echo $product['manufacturer']; ?></h2>
                         <span class="short-description"><?php echo $product['name']; ?></span>
 
                         <div class="price">
@@ -73,4 +74,5 @@
     </div>
   </div>
 </div>
+
 <?php echo $footer; ?>

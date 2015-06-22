@@ -182,6 +182,16 @@ em {
   font-style: italic;
 }
 
+/* line 105, ../../../../../dev/sass/partials/globals/_typography.scss */
+.alert {
+  display: block;
+  margin: 10px 0 20px 0;
+}
+/* line 110, ../../../../../dev/sass/partials/globals/_typography.scss */
+.alert.alert-danger {
+  color: #c97386;
+}
+
 /* line 15, ../../../../../dev/sass/partials/globals/_core.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;

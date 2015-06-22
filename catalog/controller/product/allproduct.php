@@ -71,6 +71,7 @@ class ControllerProductAllproduct extends Controller {
 		$data['button_list'] = $this->language->get('button_list');
 		$data['button_grid'] = $this->language->get('button_grid');
 
+
 		// Set the last allproduct breadcrumb
 		$url = '';
 
@@ -165,6 +166,7 @@ class ControllerProductAllproduct extends Controller {
 				'name'        => $result['name'],
 				'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 				'price'       => $price,
+				'manufacturer' => $result['manufacturer'],
 				'special'     => $special,
 				'tax'         => $tax,
 				'rating'      => $result['rating'],

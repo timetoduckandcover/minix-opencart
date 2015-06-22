@@ -102,5 +102,16 @@ em {
     font-style: italic;
 }
 
+.alert {
+
+    display: block;
+    margin: $baseline/2 0 $baseline 0;
+
+    &.alert-danger {
+
+        color: $col-red;
+    }
+}
+
 
 // ============================================================

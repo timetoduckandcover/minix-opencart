@@ -97,7 +97,7 @@
           <nav class="nav-left visible-nav">
             <ul>
               <li class="has-sub-nav">
-                <a href="collection.php">Shop</a>
+                <a href="index.php?route=product/allproduct">Shop</a>
                 <?php include('catalog/view/theme/default/template/partials/header-sub-nav.php');?>
               </li>
               <li>
