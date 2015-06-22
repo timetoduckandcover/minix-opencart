@@ -11,6 +11,7 @@
       
       <!-- Breadcrumbs -->
       <?php include('catalog/view/theme/default/template/partials/breadcrumbs.php') ;?>
+
       <div class="row"><?php echo $column_left; ?>
         <?php if ($column_left && $column_right) { ?>
         <?php $class = 'col-sm-6'; ?>
@@ -282,15 +283,16 @@
                 </div>
               </div>
             </fieldset>
+
             <div class="buttons clearfix">
               <div class="pull-left"><a href="<?php echo $back; ?>" class="btn btn-default"><?php echo $button_back; ?></a></div>
               <div class="pull-right">
                 <input type="submit" value="<?php echo $button_continue; ?>" class="btn btn-primary" />
               </div>
             </div>
+
           </form>
-          <?php echo $content_bottom; ?></div>
-        <?php echo $column_right; ?></div>
+
     </div>
   </div>
 </div>

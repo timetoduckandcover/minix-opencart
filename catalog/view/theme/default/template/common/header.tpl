@@ -25,8 +25,7 @@
   <?php } ?>
 
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-  
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+  <script src="catalog/view/theme/default/javascript/jquery.js"></script>
 
   <?php echo $google_analytics; ?>
 </head>

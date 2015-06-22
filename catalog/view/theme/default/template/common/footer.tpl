@@ -44,10 +44,7 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
             <h4 class="epsilon">Join Our Newsletter</h4>
             <div class="footer-newsletter">
-              <form action="">
-                  <input type="text" placeholder="Your Email Address" />
-                  <input type="submit" value="Submit" />
-              </form>
+              <?php include('catalog/view/theme/default/template/partials/newsletter.php');?>
             </div>
         </div>
 

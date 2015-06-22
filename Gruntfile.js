@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         concat: {
             dist: {
                 src: [
-                    'dev/js/libs/jquery.js',
+                    //'dev/js/libs/jquery.js',  jQuery is included in the header
                     'dev/js/libs/modernizr.js',
                     'dev/js/libs/flexslider.js',
                     'dev/js/modules/functions-header.js',

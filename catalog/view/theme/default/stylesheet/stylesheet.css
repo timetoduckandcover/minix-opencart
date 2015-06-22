@@ -2150,10 +2150,20 @@ table th, table td {
   line-height: 24px;
 }
 /* line 25, ../../../../../dev/sass/partials/modules/_footer.scss */
-.global-footer .footer-newsletter form input[type="text"], .global-footer .footer-newsletter form select,
-.global-footer .footer-newsletter form textarea {
+.global-footer .footer-newsletter form input[type="email"] {
   background: #e6e7e7;
-  text-transform: uppercase;
+}
+/* line 31, ../../../../../dev/sass/partials/modules/_footer.scss */
+.global-footer .footer-newsletter form #mce-responses {
+  margin-bottom: 20px;
+}
+/* line 35, ../../../../../dev/sass/partials/modules/_footer.scss */
+.global-footer .footer-newsletter form #mce-responses #mce-error-response {
+  color: #c97386;
+}
+/* line 40, ../../../../../dev/sass/partials/modules/_footer.scss */
+.global-footer .footer-newsletter form #mce-responses #mce-success-response {
+  color: #6ee1cd;
 }
 
 /* line 3, ../../../../../dev/sass/partials/modules/_breadcrumbs.scss */

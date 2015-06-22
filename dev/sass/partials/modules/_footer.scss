@@ -22,11 +22,25 @@
 				@include font(16);
 			}
 
-			input[type="text"] {
+			input[type="email"] {
 
 				background: $col-lightgrey;
-				//color: $col-darkgrey;
-				text-transform: uppercase;
+				// text-transform: uppercase;
+			}
+
+			#mce-responses {
+
+				margin-bottom: $baseline;
+
+				#mce-error-response {
+
+					color: $col-red;
+				}
+
+				#mce-success-response {
+
+					color: $col-lime;
+				}
 			}
 		}
 	}
