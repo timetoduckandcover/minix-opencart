@@ -3398,3 +3398,151 @@
 2015-06-23 1:39:11 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 1:39:11 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 1:39:11 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 1:40:38 - PHP Warning:  Illegal string offset 'title' in /Applications/MAMP/htdocs/minixstyle/vqmod/vqcache/vq2-catalog_view_theme_default_template_common_header.tpl on line 102
+2015-06-23 1:40:38 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:40:38 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:40:38 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 1:41:00 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:00 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:00 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 1:41:21 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:21 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:21 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 1:41:28 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:28 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:30 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:30 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:30 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 1:41:33 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:41:33 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:44:36 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:44:36 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:45:09 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:45:09 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:11 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:11 - PHP Notice:  Undefined variable: text_logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:23 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:23 - PHP Notice:  Undefined variable: text_logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:41 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:41 - PHP Notice:  Undefined variable: text_logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:53 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:47:53 - PHP Notice:  Undefined variable: text_logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:48:01 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:48:01 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:48:12 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:48:12 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:51:51 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_edit in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 4
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_password in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 5
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: address in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 6
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_address in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 6
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_wishlist in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 7
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_order in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 8
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_download in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 9
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_return in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 14
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_transaction in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 15
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_recurring in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 16
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_newsletter in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 17
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:51:51 - PHP Notice:  Undefined variable: text_logout in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 18
+2015-06-23 1:52:01 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:01 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:07 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:07 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:09 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:09 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
