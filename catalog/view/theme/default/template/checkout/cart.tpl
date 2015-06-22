@@ -35,7 +35,7 @@
           <div class="col-xs-12 col-md-6 mb">
             <div class="cart-header-cta">
               <a href="/collection.php">Continue to shopping</a>
-              <a href="/checkout-shipping.php" class="btn">Checkout</a>
+              <a href="<?php echo $checkout; ?>" class="btn"><?php echo $button_checkout; ?></a>
             </div>
           </div>
         </div>
@@ -196,13 +196,7 @@
                 </table>
               </div>
             </div>
-            <div class="buttons">
-              <div class="pull-left"><a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?></a></div>
-              <div class="pull-right"><a href="<?php echo $checkout; ?>" class="btn btn-primary"><?php echo $button_checkout; ?></a></div>
-            </div>
-     <!--        
-            <?php echo $content_bottom; ?></div>
-          <?php echo $column_right; ?></div> -->
+           
 
     </div>
   </div>
