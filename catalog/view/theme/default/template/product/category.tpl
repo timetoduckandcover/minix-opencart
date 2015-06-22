@@ -47,6 +47,8 @@
                               <?php if (!$product['special']) { ?>
                                 <span class="sale"><?php echo $product['special']; ?></span>
                                 <?php echo $product['price']; ?>
+                              <?php } else { ?>
+                                <?php echo $product['price']; ?>
                               <?php } ?>
                           <?php } ?>
                         </span>
