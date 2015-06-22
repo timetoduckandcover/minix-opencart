@@ -14,7 +14,7 @@
     <!-- Content -->
     <div class="row">
       <div class="col-xs-12 col-md-3">
-        <?php include('catalog/view/theme/default/template/partials/informationsidebar.tpl');?>
+        <?php include('catalog/view/theme/default/template/partials/account-sidebar.php');?>
       </div>
       <div class="col-xs-12 col-md-9 page-wyziwig">
 
@@ -51,9 +51,6 @@
         <?php } else { ?>
         <p><?php echo $text_empty; ?></p>
         <?php } ?>
-
-        <?php echo $content_bottom; ?></div>
-        <?php echo $column_right; ?></div>
 
       </div>
     </div>

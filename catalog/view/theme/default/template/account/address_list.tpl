@@ -22,7 +22,7 @@
     <div class="row">
 
       <div class="col-xs-12 col-md-3">
-        <?php include('catalog/view/theme/default/template/partials/informationsidebar.tpl');?>
+        <?php include('catalog/view/theme/default/template/partials/account-sidebar.php');?>
       </div>
 
       <div class="col-xs-12 col-md-9 page-wyziwig">
@@ -45,8 +45,6 @@
             <div class="pull-left"><a href="<?php echo $back; ?>" class="btn btn-default"><?php echo $button_back; ?></a></div>
             <div class="pull-right"><a href="<?php echo $add; ?>" class="btn btn-primary"><?php echo $button_new_address; ?></a></div>
           </div>
-          <?php echo $content_bottom; ?></div>
-          <?php echo $column_right; ?></div>
       </div>
   </div>
 </div>

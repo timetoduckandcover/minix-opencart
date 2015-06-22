@@ -14,7 +14,7 @@
     <div class="row">
 
       <div class="col-xs-12 col-md-3">
-        <?php include('catalog/view/theme/default/template/partials/informationsidebar.tpl');?>
+        <?php include('catalog/view/theme/default/template/partials/account-sidebar.php');?>
       </div>
 
       <div class="col-xs-12 col-md-9 page-wyziwig">
@@ -231,9 +231,6 @@
             </div>
           </div>
         </form>
-
-        <?php echo $content_bottom; ?>
-        <?php echo $column_right; ?>
 
       </div>
     </div>

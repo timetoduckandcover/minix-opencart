@@ -99,6 +99,35 @@ class ControllerAccountRecurring extends Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 
+		// Sidebar data & text
+		$data['text_my_account'] = $this->language->get('text_my_account');
+		$data['text_my_orders'] = $this->language->get('text_my_orders');
+		$data['text_my_newsletter'] = $this->language->get('text_my_newsletter');
+		$data['text_edit'] = $this->language->get('text_edit');
+		$data['text_password'] = $this->language->get('text_password');
+		$data['text_address'] = $this->language->get('text_address');
+		$data['text_wishlist'] = $this->language->get('text_wishlist');
+		$data['text_order'] = $this->language->get('text_order');
+		$data['text_download'] = $this->language->get('text_download');
+		$data['text_reward'] = $this->language->get('text_reward');
+		$data['text_return'] = $this->language->get('text_return');
+		$data['text_transaction'] = $this->language->get('text_transaction');
+		$data['text_newsletter'] = $this->language->get('text_newsletter');
+		$data['text_recurring'] = $this->language->get('text_recurring');
+		$data['text_logout'] = $this->language->get('text_logout');
+
+		$data['edit'] = $this->url->link('account/edit', '', 'SSL');
+		$data['password'] = $this->url->link('account/password', '', 'SSL');
+		$data['address'] = $this->url->link('account/address', '', 'SSL');
+		$data['wishlist'] = $this->url->link('account/wishlist');
+		$data['order'] = $this->url->link('account/order', '', 'SSL');
+		$data['download'] = $this->url->link('account/download', '', 'SSL');
+		$data['return'] = $this->url->link('account/return', '', 'SSL');
+		$data['transaction'] = $this->url->link('account/transaction', '', 'SSL');
+		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+		$data['recurring'] = $this->url->link('account/recurring', '', 'SSL');
+		$data['logout'] = $this->url->link('account/logout', '', 'SSL');
+
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/recurring_list.tpl')) {
 			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/recurring_list.tpl', $data));
 		} else {

@@ -11,20 +11,20 @@
       
       <!-- Breadcrumbs -->
       <?php include('catalog/view/theme/default/template/partials/breadcrumbs.php') ;?>
-  
-      <!-- Logged in? -->
-      <?php if ($success) { ?>
-        <div class="alert alert-success"><i class="fa fa-check-circle"></i> <?php echo $success; ?></div>
-      <?php } ?>
 
       <!-- Content -->
       <div class="row">
 
         <div class="col-xs-12 col-md-3">
-          <?php include('catalog/view/theme/default/template/partials/informationsidebar.tpl');?>
+          <?php include('catalog/view/theme/default/template/partials/account-sidebar.php');?>
         </div>
 
         <div class="col-xs-12 col-md-9 page-wyziwig">
+          <!-- Error handling -->
+          <?php if ($success) { ?>
+            <div class="alert alert-success"><i class="fa fa-check-circle"></i> <?php echo $success; ?></div>
+          <?php } ?>
+
           <h2 class="epsilon"><?php echo $text_my_account; ?></h2>
           <ul>
             <li><a href="<?php echo $edit; ?>"><?php echo $text_edit; ?></a></li>
@@ -47,12 +47,6 @@
           <ul>
             <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
           </ul>
-
-          <div>
-            <?php echo $content_bottom; ?></div>
-            <?php echo $column_right; ?></div>
-          </div>
-
         </div>
 
       </div>
