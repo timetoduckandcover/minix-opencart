@@ -1817,7 +1817,7 @@ table th, table td {
 .global-header {
   z-index: 99999;
   background: white;
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid white;
   position: relative;
 }
 @media (min-width: 767px) {
