@@ -104,6 +104,11 @@
             <!-- Product Variants -->
             <?php include('catalog/view/theme/default/template/partials/product-options.php');?>
 
+            <!-- Add to cart -->
+            <div class="add-to-cart">
+              <a href="javascript:;" type="submit" class="btn block" id="button-cart">Add to bag</a>
+            </div>
+
             <!-- Extra Message -->
             <?php if($attribute_groups){ ?>
               <?php foreach ($attribute_groups as $attribute_group) { ?>
@@ -138,11 +143,6 @@
                 <?php } ?>
               <?php } ?>
             <?php } ?>
-
-            <!-- Add to cart -->
-            <div class="add-to-cart">
-              <a href="javascript:;" type="submit" class="btn block" id="button-cart">Add to bag</a>
-            </div>
           
           </div>
       </div> <!-- row end -->

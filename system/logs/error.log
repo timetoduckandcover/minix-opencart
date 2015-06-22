@@ -3132,3 +3132,17 @@
 2015-06-22 7:22:29 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
 2015-06-22 7:23:32 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
 2015-06-22 7:24:32 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-22 18:40:54 - PHP Notice:  A non well formed numeric value encountered in /Applications/MAMP/htdocs/minixstyle/system/library/image.php on line 86
+2015-06-22 18:40:54 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /Applications/MAMP/htdocs/minixstyle/system/library/image.php on line 86
+2015-06-22 18:40:54 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /Applications/MAMP/htdocs/minixstyle/system/library/image.php on line 94
+2015-06-22 18:40:54 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /Applications/MAMP/htdocs/minixstyle/system/library/image.php on line 97
+2015-06-22 18:40:54 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /Applications/MAMP/htdocs/minixstyle/system/library/image.php on line 99
+2015-06-22 18:43:34 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-22 18:45:31 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-22 18:48:38 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-22 18:50:31 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-22 18:55:37 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-22 18:56:28 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-22 18:56:29 - PHP Notice:  Undefined variable: reward in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/account-sidebar.php on line 10
+2015-06-22 19:20:22 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-22 19:27:28 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22

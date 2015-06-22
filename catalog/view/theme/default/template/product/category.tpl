@@ -1,5 +1,11 @@
 <?php echo $header; ?>
 
+<!-- if collection has featured image -->
+<?php if ($thumb) { ?>
+<img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-full" />
+<?php } ?>
+<!-- endif -->
+
 <div class="header-push less">
   <div id="collection">
     <div class="wrapper padding">
@@ -8,7 +14,6 @@
       <?php include('catalog/view/theme/default/template/partials/breadcrumbs.php') ;?>
 
       <div class="row">
-
 
         <!-- Mobile header -->
         <div class="col-xs-12">
