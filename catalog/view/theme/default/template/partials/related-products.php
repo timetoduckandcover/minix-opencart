@@ -23,17 +23,17 @@
               <span class="short-description"><?php echo $product['name']; ?></span>
 
               <?php if ($product['price']) { ?>
-              <div class="price">
-                <span class="price-left">
-                  <?php if (!$product['special']) { ?>
-                      <?php echo $product['price']; ?>
-                    <?php } else { ?>
-                      <span class="sale"><?php echo $product['price']; ?></span>
-                      <?php echo $product['special']; ?>
-                  <?php } ?>
-                </span>
-                <span class="price-right">VIP: $26</span>
-              </div>
+                <div class="price">
+                  <span class="price-left">
+                    <?php if (!$product['special']) { ?>
+                        <?php echo $product['price']; ?>
+                      <?php } else { ?>
+                        <span class="sale"><?php echo $product['price']; ?></span>
+                        <?php echo $product['special']; ?>
+                    <?php } ?>
+                  </span>
+                  <span class="price-right">VIP: $26</span>
+                </div>
               <?php } ?>
             </div>
 

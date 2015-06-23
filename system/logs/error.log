@@ -3546,3 +3546,15 @@
 2015-06-23 1:52:07 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 1:52:09 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 1:52:09 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:33 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:52:33 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:57:25 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:57:25 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:57:27 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:57:27 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:57:27 - PHP Notice:  Undefined index: manufacturer in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-23 1:59:36 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:59:36 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 1:59:36 - PHP Notice:  Undefined index: manufacturer_id in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/related-products.php on line 22
+2015-06-23 2:02:26 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 2:02:26 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
