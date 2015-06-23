@@ -31,8 +31,21 @@ Open your browser and navigate to *http://localhost/phpmyadmin*
 Create a new database called *minix* and import the minix.sql database that you'll find in the root of the project at */Applications/MAMP/htdocs/minixstyle* (if this is unsuccessful, open the database in a text editor like Sublime Text and add ```--``` before line 22 - the create statement - to comment this out. Then try again).
 Issues: If you have set up a different user/password on your phpmyadmin, you will need to change this in the *config.php* file in the root directory on lines 24 & 25 (replace 'root' with whatever you have chosen)
 
-####6.Run Grunt and watching for changes
+####6.Run Grunt and watch for changes
 The front end of this site uses Grunt to watch Sass & Js files for changes and compiles them all to to minified files (this reduces http requests, keeps the css & js structure clean and tidy and speeds up the final running of the site)
+You can run grunt by opening the Mac Terminal and navigating to */Applications/MAMP/htdocs/minixstyle* and typing ```grunt``` 
+If this errors you might need to install Sass & Compass gems. You can do this in the terminal by typing:
+```
+gem install sass
+```
+and
+```
+gem install compass
+```
+Please try running grunt again after this by typing ```grunt``` again. This should start watching for changes.
+All the front end files are located in *dev* folder and are organised under js & sass directories. Every change you make in here will compile to their appropriate assets folders *catalog/view/theme/javascript* & *catalog/view/theme/default/stylesheet*
+
+The static php build files are located in *theme_sample/partials*
 
 
 
