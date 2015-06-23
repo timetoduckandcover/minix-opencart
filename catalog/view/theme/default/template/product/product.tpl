@@ -144,7 +144,6 @@
                 <?php } ?>
               <?php } ?>
             <?php } ?>
-          
           </div>
       </div> <!-- row end -->
 

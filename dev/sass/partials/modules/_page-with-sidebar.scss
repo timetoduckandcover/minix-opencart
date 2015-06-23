@@ -30,6 +30,13 @@
 // Page sidebar
 #pws-sidebar {
 
+	margin-bottom: $baseline;
+
+	@include breakpoint($tablet) {
+
+		margin-bottom: 0;
+	}
+
 	h3 {
 
 		margin-bottom: $baseline/2;
