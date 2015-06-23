@@ -51,12 +51,12 @@ $('#button-confirm').on('click', function() {
 		data: $('#payment :input'),
 		dataType: 'json',
 		cache: false,
-		beforeSend: function() {
-			$('#button-confirm').button('loading');
-		},
-		complete: function() {
-			$('#button-confirm').button('reset');
-		},
+		// beforeSend: function() {
+		// 	$('#button-confirm').button('loading');
+		// },
+		// complete: function() {
+		// 	$('#button-confirm').button('reset');
+		// },
 		success: function(json) {
 			if (json['error']) {
 				alert(json['error']);

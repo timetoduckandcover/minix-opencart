@@ -3,10 +3,6 @@
 <div class="cart-quickview">
 	<h3>Your Bag (2)</h3>
 
-	<?php  foreach ($products as $product) {
-        echo 'yes am getting products details';
-    } ;?>
-
 	<div class="cart-item-wrapper">
 		<div class="cart-item">
 			<div class="cart-item-left">

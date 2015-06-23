@@ -17,12 +17,12 @@ $('#button-coupon').on('click', function() {
 		type: 'post',
 		data: 'coupon=' + encodeURIComponent($('input[name=\'coupon\']').val()),
 		dataType: 'json',
-		beforeSend: function() {
-			$('#button-coupon').button('loading');
-		},
-		complete: function() {
-			$('#button-coupon').button('reset');
-		},
+		// beforeSend: function() {
+		// 	$('#button-coupon').button('loading');
+		// },
+		// complete: function() {
+		// 	$('#button-coupon').button('reset');
+		// },
 		success: function(json) {
 			$('.alert').remove();
 

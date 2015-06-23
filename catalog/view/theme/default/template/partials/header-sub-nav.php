@@ -63,7 +63,7 @@
 						</li>
 					</ul>
 					<h3 class="epsilon more">
-						<a href="/">More brands...</a>
+						<a href="/index.php?route=product/manufacturer">More brands...</a>
 					</h3>
 				</div>
 				<div class="col-xs-12 col-md-3 sub-nav-list">

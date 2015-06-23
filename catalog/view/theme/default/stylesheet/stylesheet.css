@@ -435,8 +435,9 @@ input[type="submit"]:hover {
 input[type="radio"]:not(.radio-product),
 input[type="checkbox"] {
   position: relative;
+  margin-right: 10px;
 }
-/* line 148, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 149, ../../../../../dev/sass/partials/globals/_forms.scss */
 input[type="radio"]:not(.radio-product):before,
 input[type="checkbox"]:before {
   content: '';
@@ -452,13 +453,13 @@ input[type="checkbox"]:before {
   top: -4px;
   left: -1px;
 }
-/* line 166, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 167, ../../../../../dev/sass/partials/globals/_forms.scss */
 input[type="radio"]:not(.radio-product):checked:before,
 input[type="checkbox"]:checked:before {
   background-position: 0 0;
 }
 
-/* line 173, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 174, ../../../../../dev/sass/partials/globals/_forms.scss */
 .radio-product {
   opacity: 0;
   position: absolute;
@@ -466,16 +467,16 @@ input[type="checkbox"]:checked:before {
   height: 0;
 }
 
-/* line 181, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 182, ../../../../../dev/sass/partials/globals/_forms.scss */
 .radio-inline {
   margin-right: 10px;
 }
-/* line 185, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 186, ../../../../../dev/sass/partials/globals/_forms.scss */
 .radio-inline input {
   margin-right: 10px;
 }
 
-/* line 193, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 194, ../../../../../dev/sass/partials/globals/_forms.scss */
 .styled-select {
   width: 100%;
   height: 44px;
@@ -487,7 +488,7 @@ input[type="checkbox"]:checked:before {
   border: 1px solid #aaa9a9;
   margin-bottom: 10px;
 }
-/* line 205, ../../../../../dev/sass/partials/globals/_forms.scss */
+/* line 206, ../../../../../dev/sass/partials/globals/_forms.scss */
 .styled-select select {
   background: transparent;
   width: 100%;

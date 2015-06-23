@@ -135,12 +135,12 @@
             type: 'post',
             data: {token: token.val()},
             dataType: 'json',
-            beforeSend: function () {
-              $('#button-delete').button('loading');
-            },
-            complete: function () {
-              $('#button-delete').button('reset');
-            },
+            // beforeSend: function () {
+            //   $('#button-delete').button('loading');
+            // },
+            // complete: function () {
+            //   $('#button-delete').button('reset');
+            // },
             success: function (json) {
               if (json['error']) {
                 alert(json['error']);

@@ -25,7 +25,16 @@
   <?php } ?>
 
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+
   <script src="catalog/view/theme/default/javascript/jquery.js"></script>
+  <script src="catalog/view/theme/default/javascript/jquery-ui.js"></script>
+  <script>
+    $(function(){
+      // did the UI load?
+      console.log(jQuery.ui);
+    });
+  </script>
+
   <!--<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
   <script src="catalog/view/javascript/jquery/datetimepicker/moment.js"></script>
   <script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js"></script>-->
@@ -52,6 +61,8 @@
 
   <header class="global-header">
      <div class="wrapper">
+
+
         <div class="row full hide-small desktop-header">
           <nav class="burger-menu desktop">
           <a href="javascript:;" class="burger">
@@ -61,16 +72,16 @@
           </a>
           <ul class="burger-nav desktop">
             <li>
-              <a href="/about_us">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
               <a href="vip.php">VIP Members</a>
             </li>
             <li>
-              <a href="customercare.php">Customer Care</a>
+              <a href="index.php?route=information/contact">Customer Care</a>
             </li>
             <li>
-              <a href="page-with-sidebar.php">Shipping &amp; Returns</a>
+              <a href="index.php?route=account/return/add">Shipping &amp; Returns</a>
             </li>
             <li>
               <a href="page-with-sidebar.php">Fit &amp; Size Guide</a>
@@ -106,13 +117,13 @@
             <?php } ?>
 
             <li>
-              <a href="page-with-sidebar.php">Contact Us</a>
+              <a href="index.php?route=information/contact">Contact Us</a>
             </li>
             <li>
               <a href="page-with-sidebar.php">Terms of Use</a>
             </li>
             <li>
-              <a href="page-with-sidebar.php">Privacy Policy</a>
+              <a href="/privacy-policy">Privacy Policy</a>
             </li>
           </ul>
           </nav>
@@ -163,6 +174,81 @@
             </ul>
           </nav>
         </div>
+  
+        <!-- Mobile header -->
+        <div class="hide-large mobile-header">
+          <nav class="burger-menu mobile">
+          <a href="javascript:;" class="burger">
+            <i class="top"></i>
+            <i class="middle"></i>
+            <i class="bottom"></i>
+          </a>
+          <ul class="burger-nav mobile">
+            <li>
+              <?php if ($logged) : ?>
+                <a href="<?php echo $account; ?>">Account</a> 
+              <?php else : ?>
+                <a href="javascript:;" class="sign-in-link">Sign in</a>
+              <?php endif;?>
+            </li>
+            <li>
+              <a href="javascript:;" class="has-mobile-sub-nav">Shop</a>
+              <ul class="mobile-sub-nav">
+                <li>
+                  <a href="collection.php">New In</a>
+                </li>
+                <li>
+                  <a href="collection.php">Popular</a>
+                </li>
+                <li>
+                  <a href="collection.php">Leggings</a>
+                </li>
+                <li>
+                  <a href="collection.php">Tees</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="collection.php">Collections</a>
+            </li>
+            <li>
+              <a href="javascript:;" class="has-mobile-sub-nav">Brands</a>
+              <ul class="mobile-sub-nav">
+                <li>
+                  <a href="page-with-sidebar.php">Adidas</a>
+                </li>
+                <li>
+                  <a href="page-with-sidebar.php">Nike</a>
+                </li>
+                <li>
+                  <a href="page-with-sidebar.php">Kara</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="page-with-sidebar.php">VIP Membership</a>
+            </li>
+          </ul>
+          </nav>
+          <?php if ($logo) { ?>
+            <a href="<?php echo $home; ?>" class="logo">
+              <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-full" />
+            </a>
+            <?php } else { ?>
+            <h2><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h2>
+          <?php } ?>
+          <div class="cart-link">
+            <a href="<?php echo $shopping_cart; ?>" class="no-underline"><i class="header-cart-count">0</i></a>
+            <?php include('catalog/view/theme/default/template/partials/cart-quickview.php');?>
+          </div>
+        </div>
+
+        <div class="tagline-mobile hide-large">
+          <span>Free Shipping</span>
+          <span>|</span>
+          <span>Become a VIP</span>
+        </div>
+
      </div>
   </header>
   <!-- end static header -->

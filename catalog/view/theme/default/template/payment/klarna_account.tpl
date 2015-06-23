@@ -129,12 +129,12 @@ $('#button-confirm').on('click', function() {
 		data: $('#payment input[type=\'text\'], #payment input[type=\'checkbox\']:checked, #payment input[type=\'radio\']:checked, #payment select'),
 		dataType: 'json',
 		cache: false,
-		beforeSend: function() {
-			$('#button-confirm').button('loading');
-		},
-		complete: function() {
-			$('#button-confirm').button('reset');
-		},
+		// beforeSend: function() {
+		// 	$('#button-confirm').button('loading');
+		// },
+		// complete: function() {
+		// 	$('#button-confirm').button('reset');
+		// },
 		success: function(json) {
 			$('.alert').remove();
 

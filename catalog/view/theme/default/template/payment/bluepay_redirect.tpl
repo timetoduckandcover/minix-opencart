@@ -119,12 +119,12 @@
 			data: $('#card-new :input[type=\'text\']:enabled, #card-new select:enabled, #card-new :input[type=\'checkbox\']:checked:enabled, #payment select:enabled, #card-existing :input:enabled'),
 			dataType: 'json',
 			cache: false,
-			beforeSend: function() {
-				$('#button-confirm').button('loading');
-			},
-			complete: function() {
-				$('#button-confirm').button('reset');
-			},
+			// beforeSend: function() {
+			// 	$('#button-confirm').button('loading');
+			// },
+			// complete: function() {
+			// 	$('#button-confirm').button('reset');
+			// },
 			success: function(json) {
 
 

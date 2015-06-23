@@ -146,12 +146,12 @@ var cart = {
 			type: 'post',
 			data: 'product_id=' + product_id + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
-			beforeSend: function() {
-				$('#cart > button').button('loading');
-			},
-			complete: function() {
-				$('#cart > button').button('reset');
-			},			
+			// beforeSend: function() {
+			// 	$('#cart > button').button('loading');
+			// },
+			// complete: function() {
+			// 	$('#cart > button').button('reset');
+			// },			
 			success: function(json) {
 				$('.alert, .text-danger').remove();
 
@@ -180,12 +180,12 @@ var cart = {
 			type: 'post',
 			data: 'key=' + key + '&quantity=' + (typeof(quantity) != 'undefined' ? quantity : 1),
 			dataType: 'json',
-			beforeSend: function() {
-				$('#cart > button').button('loading');
-			},
-			complete: function() {
-				$('#cart > button').button('reset');
-			},			
+			// beforeSend: function() {
+			// 	$('#cart > button').button('loading');
+			// },
+			// complete: function() {
+			// 	$('#cart > button').button('reset');
+			// },			
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
@@ -238,12 +238,12 @@ var voucher = {
 			type: 'post',
 			data: 'key=' + key,
 			dataType: 'json',
-			beforeSend: function() {
-				$('#cart > button').button('loading');
-			},
-			complete: function() {
-				$('#cart > button').button('reset');
-			},
+			// beforeSend: function() {
+			// 	$('#cart > button').button('loading');
+			// },
+			// complete: function() {
+			// 	$('#cart > button').button('reset');
+			// },
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {

@@ -43,12 +43,12 @@ $('#button-quote').on('click', function() {
 		type: 'post',
 		data: 'country_id=' + $('select[name=\'country_id\']').val() + '&zone_id=' + $('select[name=\'zone_id\']').val() + '&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),
 		dataType: 'json',
-		beforeSend: function() {
-			$('#button-quote').button('loading');
-		},
-		complete: function() {
-			$('#button-quote').button('reset');
-		},
+		// beforeSend: function() {
+		// 	$('#button-quote').button('loading');
+		// },
+		// complete: function() {
+		// 	$('#button-quote').button('reset');
+		// },
 		success: function(json) {
 			$('.alert, .text-danger').remove();
 
@@ -137,12 +137,12 @@ $(document).delegate('#button-shipping', 'click', function() {
 		type: 'post',
 		data: 'shipping_method=' + encodeURIComponent($('input[name=\'shipping_method\']:checked').val()),
 		dataType: 'json',
-		beforeSend: function() {
-			$('#button-shipping').button('loading');
-		},
-		complete: function() {
-			$('#button-shipping').button('reset');
-		},
+		// beforeSend: function() {
+		// 	$('#button-shipping').button('loading');
+		// },
+		// complete: function() {
+		// 	$('#button-shipping').button('reset');
+		// },
 		success: function(json) {
 			$('.alert').remove();
 

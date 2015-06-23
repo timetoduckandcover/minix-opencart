@@ -1,3 +1,4 @@
+
 <form class="form-horizontal">
   <div class="form-group required">
     <label class="col-sm-2 control-label" for="input-shipping-firstname"><?php echo $entry_firstname; ?></label>
@@ -237,12 +238,12 @@ $('#collapse-shipping-address button[id^=\'button-shipping-custom-field\']').on(
 				cache: false,
 				contentType: false,
 				processData: false,
-				beforeSend: function() {
-					$(node).button('loading');
-				},
-				complete: function() {
-					$(node).button('reset');
-				},
+				// beforeSend: function() {
+				// 	$(node).button('loading');
+				// },
+				// complete: function() {
+				// 	$(node).button('reset');
+				// },
 				success: function(json) {
 					$(node).parent().find('.text-danger').remove();
 
@@ -265,18 +266,18 @@ $('#collapse-shipping-address button[id^=\'button-shipping-custom-field\']').on(
 });
 //--></script>
 <script type="text/javascript"><!--
-$('.date').datetimepicker({
-	pickTime: false
-});
+// $('.date').datetimepicker({
+// 	pickTime: false
+// });
 
-$('.time').datetimepicker({
-	pickDate: false
-});
+// $('.time').datetimepicker({
+// 	pickDate: false
+// });
 
-$('.datetime').datetimepicker({
-	pickDate: true,
-	pickTime: true
-});
+// $('.datetime').datetimepicker({
+// 	pickDate: true,
+// 	pickTime: true
+// });
 //--></script>
 <script type="text/javascript"><!--
 $('#collapse-shipping-address select[name=\'country_id\']').on('change', function() {

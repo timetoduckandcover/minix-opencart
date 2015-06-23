@@ -1818,6 +1818,33 @@ $('select[name=\'country_id\']').trigger('change');
 		$numinput.val( parseInt( $numinput.val(), 10 ) +1 );
 	});
 
+// Get cart details
+console.log("test");
+
+$.ajax({
+	url: 'index.php?route=checkout/cart',
+	type: 'get',
+	dataType: 'json',
+	// beforeSend: function() {
+	// },
+	// complete: function() {
+	// },
+	success: function(data) {
+
+		console.log(data)
+
+	    if (data.length > 0) {
+	        // do something here with the products in data array
+	    }
+	},
+	error: function(err) {
+
+		console.log(err)
+	}
+});
+
+
+
 	// Add or remove promo / gift card
 	$('.apply-promo-gift-card').on("click", function(){
 
@@ -2124,7 +2151,7 @@ $('.select-currency').on("click", function() {
 	setTimeout(function() {
 
 		generalPopup.hide();
-		rlpWrapper.fadeIn();
+		//rlpWrapper.fadeIn();
 	}, 5000);
 
 	// Switch between login & register forms

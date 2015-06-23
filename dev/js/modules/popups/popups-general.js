@@ -17,7 +17,7 @@
 	setTimeout(function() {
 
 		generalPopup.hide();
-		rlpWrapper.fadeIn();
+		//rlpWrapper.fadeIn();
 	}, 5000);
 
 	// Switch between login & register forms

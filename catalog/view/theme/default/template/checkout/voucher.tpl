@@ -17,12 +17,12 @@ $('#button-voucher').on('click', function() {
     type: 'post',
     data: 'voucher=' + encodeURIComponent($('input[name=\'voucher\']').val()),
     dataType: 'json',
-    beforeSend: function() {
-      $('#button-voucher').button('loading');
-    },
-    complete: function() {
-      $('#button-voucher').button('reset');
-    },
+    // beforeSend: function() {
+    //   $('#button-voucher').button('loading');
+    // },
+    // complete: function() {
+    //   $('#button-voucher').button('reset');
+    // },
     success: function(json) {
       $('.alert').remove();
 
