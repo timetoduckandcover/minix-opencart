@@ -1,0 +1,56 @@
+---------- Date: 2015-06-23 15:40:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=54fc542faebddece497935ce909e2763
+MOD DETAILS:
+   modFile   : /Applications/MAMP/htdocs/minixstyle/vqmod/xml/blog.xml
+   id        : Add blog menu item
+   version   : 1.0.0
+   vqmver    : 2.x
+   author    : krafas
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->data['text_catalog']
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-23 15:40:39 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=54fc542faebddece497935ce909e2763
+MOD DETAILS:
+   modFile   : /Applications/MAMP/htdocs/minixstyle/vqmod/xml/blog.xml
+   id        : Add blog menu item
+   version   : 1.0.0
+   vqmver    : 2.x
+   author    : krafas
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->data['text_catalog']
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-23 15:41:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=54fc542faebddece497935ce909e2763
+MOD DETAILS:
+   modFile   : /Applications/MAMP/htdocs/minixstyle/vqmod/xml/blog.xml
+   id        : Add blog menu item
+   version   : 1.0.0
+   vqmver    : 2.x
+   author    : krafas
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->data['text_catalog']
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-23 15:41:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=54fc542faebddece497935ce909e2763
+MOD DETAILS:
+   modFile   : /Applications/MAMP/htdocs/minixstyle/vqmod/xml/blog.xml
+   id        : Add blog menu item
+   version   : 1.0.0
+   vqmver    : 2.x
+   author    : krafas
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->data['text_catalog']
+----------------------------------------------------------------------
+
+

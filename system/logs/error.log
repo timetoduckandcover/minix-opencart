@@ -3582,3 +3582,40 @@
 2015-06-23 2:11:07 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 2:11:40 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
 2015-06-23 2:11:40 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:25:40 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:25:40 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:28 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:28 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:30 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:30 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 146
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 148
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 154
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 160
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 166
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 167
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 169
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 202
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 204
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 206
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 207
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 208
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 209
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 210
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 211
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 213
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 214
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 219
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 227
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 242
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 243
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 244
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 245
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 246
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 265
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 267
+2015-06-23 15:40:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleBlog::$data has no effect in /Applications/MAMP/htdocs/minixstyle/admin/controller/module/blog.php on line 268
+2015-06-23 15:40:53 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:53 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:56 - PHP Notice:  Undefined variable: products in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
+2015-06-23 15:40:56 - PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/cart-quickview.php on line 6
