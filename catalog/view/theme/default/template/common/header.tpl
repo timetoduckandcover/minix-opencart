@@ -27,19 +27,19 @@
   <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
 
   <script src="catalog/view/theme/default/javascript/jquery.js"></script>
-  <script src="catalog/view/theme/default/javascript/jquery-ui.js"></script>
+  <!--<script src="catalog/view/theme/default/javascript/jquery-ui.js"></script>
   <script>
     $(function(){
-      // did the UI load?
       console.log(jQuery.ui);
     });
-  </script>
+  </script>-->
 
   <!--<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
   <script src="catalog/view/javascript/jquery/datetimepicker/moment.js"></script>
   <script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js"></script>-->
 
   <?php echo $google_analytics; ?>
+
 </head>
 
 <body class="<?php echo $class; ?>">
@@ -48,6 +48,9 @@
   <?php if (!$logged) { ?>
     <?php include('catalog/view/theme/default/template/partials/register-login-popup.php');?>
   <?php } ?>
+
+  <!-- Refer a friend popup -->
+  <?php include('catalog/view/theme/default/template/partials/refer-a-friend-popup.php');?>
 
   <!-- If user is not logged in, show promo banner -->
   <?php if (!$logged) { ?>

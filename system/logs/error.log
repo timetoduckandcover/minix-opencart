@@ -4304,3 +4304,10 @@
 2015-06-23 23:27:37 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
 2015-06-23 23:28:35 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
 2015-06-23 23:31:13 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:42:49 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:46:20 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-23 23:46:21 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:46:22 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:46:27 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:51:56 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-23 23:56:09 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
