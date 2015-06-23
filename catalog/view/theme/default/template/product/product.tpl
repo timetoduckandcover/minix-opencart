@@ -107,6 +107,7 @@
             <!-- Add to cart -->
             <div class="add-to-cart">
               <a href="javascript:;" type="submit" class="btn block" id="button-cart">Add to bag</a>
+               <a href="javascript:;" class="btn block add-to-wishlist" onclick="wishlist.add('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>
             </div>
 
             <!-- Extra Message -->

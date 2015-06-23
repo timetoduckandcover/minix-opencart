@@ -150,6 +150,15 @@
 			}
 		}
 
+		.add-to-wishlist {
+	
+			&.added {
+
+				background: $col-lime !important;
+				border: 1px solid $col-lime !important;
+			}
+		}
+
 		// Extra message
 		.extra-message {
 
