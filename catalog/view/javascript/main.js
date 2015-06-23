@@ -2251,7 +2251,12 @@ $('#button-cart').on('click', function() {
 
 		success: function(json) {
 
-			alert("added to cart!", json);
+			$('#button-cart').text('Added to bag!').addClass('added-to-cart');
+
+			setTimeout(function() {
+
+				$('#button-cart').text('Add to bag').removeClass('added-to-cart');
+			}, 2000);
 
 			// $('.alert, .text-danger').remove();
 			// $('.form-group').removeClass('has-error');

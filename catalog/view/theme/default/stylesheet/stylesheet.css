@@ -2580,7 +2580,12 @@ table th, table td {
   line-height: 39px;
   text-align: center;
 }
-/* line 148, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 145, ../../../../../dev/sass/partials/modules/_product.scss */
+#product .product-details .add-to-cart a.added-to-cart {
+  background: #6ee1cd !important;
+  border: 1px solid #6ee1cd !important;
+}
+/* line 154, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .extra-message {
   text-align: center;
   display: block;
@@ -2590,30 +2595,30 @@ table th, table td {
   margin: 10px 0 20px 0;
   padding-bottom: 4px;
 }
-/* line 162, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 168, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li {
   display: block;
   border-bottom: 1px solid #aaa9a9;
 }
 @media (min-width: 767px) {
-  /* line 162, ../../../../../dev/sass/partials/modules/_product.scss */
+  /* line 168, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-tabs ul li {
     border-right: 1px solid #222222;
     border-left: 1px solid #222222;
     border-bottom: 1px solid #222222;
   }
 }
-/* line 174, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 180, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li:first-child {
   border-top: 1px solid #aaa9a9;
 }
 @media (min-width: 767px) {
-  /* line 174, ../../../../../dev/sass/partials/modules/_product.scss */
+  /* line 180, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-tabs ul li:first-child {
     border-top: 1px solid #222222;
   }
 }
-/* line 184, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 190, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header {
   display: block;
   text-transform: uppercase;
@@ -2624,26 +2629,26 @@ table th, table td {
   border: none;
   position: relative;
 }
-/* line 193, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 199, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header:hover {
   border: none;
 }
-/* line 198, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 204, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header:after {
   content: '+';
   position: absolute;
   right: 20px;
   top: 10px;
 }
-/* line 206, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 212, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header.active {
   color: #6ee1cd;
 }
-/* line 210, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 216, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header.active:after {
   content: '-';
 }
-/* line 217, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 223, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-content {
   padding: 20px 20px 10px 20px;
   display: none;
@@ -2652,19 +2657,19 @@ table th, table td {
   font-size: 1.125em;
   line-height: 27px;
 }
-/* line 231, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 237, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-related,
 #product .product-suggestions {
   text-align: center;
   margin-top: 40px;
 }
-/* line 236, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 242, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-related h3,
 #product .product-suggestions h3 {
   font-family: "GibsonRegular", arial, sans-serif;
 }
 
-/* line 243, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 249, ../../../../../dev/sass/partials/modules/_product.scss */
 .sale {
   text-decoration: line-through;
 }

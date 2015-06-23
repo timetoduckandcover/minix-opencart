@@ -141,6 +141,12 @@
 				padding: $baseline/2 $baseline;
 				@include font(26);
 				text-align: center;
+
+				&.added-to-cart {
+
+					background: $col-lime !important;
+					border: 1px solid $col-lime !important;
+				}
 			}
 		}
 
