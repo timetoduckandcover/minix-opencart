@@ -8,7 +8,7 @@
 
 </div> 
 
-<div class="home-new-arrivals">
+<div class="home-new-arrivals wrapper padding">
     <?php echo $content_bottom; ?>
 </div>
 

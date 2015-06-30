@@ -4311,3 +4311,10 @@
 2015-06-23 23:46:27 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
 2015-06-23 23:51:56 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
 2015-06-23 23:56:09 - PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/checkout/cart.tpl on line 90
+2015-06-30 1:57:38 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 2:11:15 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 2:11:19 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 15:24:59 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 15:31:57 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 15:39:28 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22
+2015-06-30 15:43:54 - PHP Notice:  Undefined variable: informations in /Applications/MAMP/htdocs/minixstyle/catalog/view/theme/default/template/partials/informationsidebar.tpl on line 22

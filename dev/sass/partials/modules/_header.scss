@@ -12,6 +12,7 @@ $header-height: $baseline*3;
 	text-align: center;
 	padding: 4px $baseline;
 	display: none;
+	height: 30px;
 
 	&.active {
 
@@ -41,6 +42,14 @@ $header-height: $baseline*3;
 	@include breakpoint($tablet) {
 
 		height: $header-height;
+
+		&.fixed {
+
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
 	}
 
 	// Logo

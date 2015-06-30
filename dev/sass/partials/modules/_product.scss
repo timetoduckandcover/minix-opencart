@@ -44,12 +44,14 @@
 
 				.price-left {
 
-					text-align: left;
+					text-align: center;
+					//text-align: left; // use this when vip pricing below becomes available
 					padding-right: $baseline;
 				}
 
 				.price-right {
-
+		
+					display: none; //hide vip pricing for now.
 					text-align: right;
 					padding-left: $baseline;
 					font-family: $gibsonsemibold;

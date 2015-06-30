@@ -3,4 +3,12 @@
 .global-content {
 
 	min-height: 500px;
+
+	@include breakpoint($tablet) {
+
+		&.fixed-header {
+
+			padding-top: $header-height;
+		}
+	}
 }

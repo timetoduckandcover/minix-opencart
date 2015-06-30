@@ -1995,6 +1995,7 @@ $('.flexslider').flexslider({
 	animation: 'slide'
 });
 
+// Toggle through slides with thumbnails on product page
 $('.product-thumbnails li a').on("click", function () {
 
 	var dataIndex = parseInt($(this).attr('data-index'));
@@ -2091,6 +2092,22 @@ setTimeout(function() {
 		$('.sub-nav').css({"top" : "59px"});
 	}
 }, 2000);
+
+// Add & remove fixed header
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 30) { //height of promo banner
+
+        $(".global-header").addClass("fixed");
+        $(".global-content").addClass("fixed-header");
+
+    } else {
+
+        $(".global-header").removeClass("fixed");
+        $(".global-content").removeClass("fixed-header");
+    }
+});
 
 
 // Toggle currency menu
