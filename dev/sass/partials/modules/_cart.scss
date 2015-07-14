@@ -25,6 +25,7 @@
 			padding: 13px $baseline*3;
 			@include font(18);
 			margin: 0 0 0 $baseline*2;
+			font-family: $gibsonsemibold;
 		}
 	}
 
@@ -32,6 +33,11 @@
 	.cart-items {
 
 		ul {
+
+			& > li.col-xs-12 {
+
+				padding: 0;
+			}
 
 			.cart-item {
 

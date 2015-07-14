@@ -94,6 +94,7 @@
 						color: $col-black;
 						@include transition(all .1s ease-in-out);
 						position: relative;
+						@include font(13);
 
 						@include breakpoint($mobile) {
 
@@ -102,8 +103,9 @@
 
 						&.active {
 
-							border: 1px solid $col-lime;
-							background: $col-lime;
+							border: 1px solid $col-black;
+							background: $col-black;
+							color: $col-white;
 						}
 
 						&.sold-out {
@@ -125,8 +127,8 @@
 
 						&:hover {
 
-							border: 1px solid $col-lime;
-							background: $col-lime;
+							border: 1px solid $col-lightgrey;
+							background: $col-lightgrey;
 						}
 					}
 				}
@@ -166,8 +168,8 @@
 
 			text-align: center;
 			display: block;
-			@include font(20);
-			margin: $baseline/2 0 $baseline 0;
+			// @include font(20);
+			margin: $baseline 0;
 			padding-bottom: 4px;
 		}
 
@@ -179,22 +181,22 @@
 				li {
 
 					display: block;
-					border-bottom: 1px solid $col-darkgrey;
+					border-bottom: 1px solid $col-grey;
 
 					@include breakpoint($tablet) {
 
-						border-right: 1px solid $col-black;
-						border-left: 1px solid $col-black;
-						border-bottom: 1px solid $col-black;
+						border-right: 1px solid $col-grey;
+						border-left: 1px solid $col-grey;
+						border-bottom: 1px solid $col-grey;
 					}
 
 					&:first-child {
 
-						border-top: 1px solid $col-darkgrey;
+						border-top: 1px solid $col-grey;
 
 						@include breakpoint($tablet) {
 
-							border-top: 1px solid $col-black;
+							border-top: 1px solid $col-grey;
 						}
 					}
 
@@ -202,8 +204,8 @@
 
 						display: block;
 						text-transform: uppercase;
-						@include font(20);
-						padding: $baseline/2 $baseline*2 $baseline/2 $baseline;
+						// @include font(20);
+						padding: $baseline/4 $baseline*2 $baseline/4 $baseline;
 						border: none;
 						position: relative;
 
@@ -217,7 +219,7 @@
 							content: '+';
 							position: absolute;
 							right: $baseline;
-							top: $baseline/2;
+							top: $baseline/4;
 						}
 
 						&.active {
@@ -235,8 +237,9 @@
 
 						padding: $baseline $baseline $baseline/2 $baseline;
 						display: none;
-						border-top: 1px solid $col-black;
+						border-top: 1px solid $col-grey;
 						@include font(18);
+						background: $col-lightgrey;
 					}
 				}
 			}
@@ -250,10 +253,10 @@
 		text-align: center;
 		margin-top: $baseline*2;
 
-		h3 {
+		// h3 {
 
-			font-family: $gibsonregular;
-		}
+		// 	font-family: $gibsonregular;
+		// }
 	}
 }
 

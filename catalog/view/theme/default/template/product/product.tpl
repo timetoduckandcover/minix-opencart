@@ -116,7 +116,7 @@
                 <?php if($attribute_group['name'] == 'Product Free Shipping') { ?>
                     <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
                       <span class="extra-message">
-                        <strong><?php echo $attribute['name']; ?></strong> 
+                        <?php echo $attribute['name']; ?>
                         <?php echo $attribute['text']; ?>
                       </span>
                     <?php } ?>

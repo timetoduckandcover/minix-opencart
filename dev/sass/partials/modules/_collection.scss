@@ -6,8 +6,25 @@
 
 	.caption {
 
-		@include centre;
+		@include centre(y);
 		text-align: center;
+		width: 100%;
+		padding: $baseline;
+
+		&.center {
+
+			text-align: center;
+		}
+
+		&.left {
+
+			text-align: left;
+		}
+
+		&.right {
+
+			text-align: right;
+		}
 	}
 }
 

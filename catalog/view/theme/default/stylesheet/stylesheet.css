@@ -85,9 +85,9 @@ html {
 
 /* line 31, ../../../../../dev/sass/partials/globals/_typography.scss */
 body, input, textarea, select, button, p, a {
-  font-size: 16px;
-  font-size: 1em;
-  line-height: 24px;
+  font-size: 15px;
+  font-size: 0.9375em;
+  line-height: 22.5px;
   color: #222222;
   font-family: "GibsonRegular", arial, sans-serif;
 }
@@ -1633,7 +1633,7 @@ a:active {
   border: 0;
 }
 /* line 62, ../../../../../dev/sass/partials/globals/_links.scss */
-a.active {
+a.coll-active {
   text-decoration: underline;
 }
 
@@ -1759,35 +1759,41 @@ table th, table td {
   background-image: url(../image/theme/arrows.png);
   background-repeat: no-repeat;
   background-size: 60px 50px;
+  opacity: .25;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-/* line 70, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 72, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-prev a:hover,
 .flexslider .flex-direction-nav .flex-nav-next a:hover {
-  border: none;
+  border-bottom: 2px solid transparent !important;
+  opacity: 1;
 }
-/* line 77, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 80, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-prev {
   margin-left: 8px;
   float: left;
 }
-/* line 82, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 85, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-prev:hover {
   margin-left: 14px;
 }
-/* line 88, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 91, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-next {
   margin-right: 8px;
   float: right;
 }
-/* line 93, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 96, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-next:hover {
   margin-right: 14px;
 }
-/* line 98, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 101, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-direction-nav .flex-nav-next a {
   background-position: -30px 0;
 }
-/* line 105, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 108, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-control-nav {
   display: block;
   position: absolute;
@@ -1797,17 +1803,17 @@ table th, table td {
   text-align: center;
 }
 @media (min-width: 767px) {
-  /* line 105, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+  /* line 108, ../../../../../dev/sass/partials/globals/_flexslider.scss */
   .flexslider .flex-control-nav {
     display: none;
   }
 }
-/* line 119, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 122, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-control-nav li {
   display: inline-block;
   margin: 0 5px;
 }
-/* line 124, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 127, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-control-nav li a {
   display: block;
   text-indent: -99999px;
@@ -1821,7 +1827,7 @@ table th, table td {
   height: 15px;
   border: 1px solid #222222;
 }
-/* line 135, ../../../../../dev/sass/partials/globals/_flexslider.scss */
+/* line 138, ../../../../../dev/sass/partials/globals/_flexslider.scss */
 .flexslider .flex-control-nav li a.flex-active, .flexslider .flex-control-nav li a:hover {
   background: #222222;
 }
@@ -2422,78 +2428,91 @@ table th, table td {
 .page-header-image-collection .caption {
   position: absolute;
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+/* line 14, ../../../../../dev/sass/partials/modules/_collection.scss */
+.page-header-image-collection .caption.center {
   text-align: center;
 }
+/* line 19, ../../../../../dev/sass/partials/modules/_collection.scss */
+.page-header-image-collection .caption.left {
+  text-align: left;
+}
+/* line 24, ../../../../../dev/sass/partials/modules/_collection.scss */
+.page-header-image-collection .caption.right {
+  text-align: right;
+}
 
-/* line 15, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 32, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item {
   position: relative;
   padding: 20px;
   margin-bottom: 40px;
 }
-/* line 21, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 38, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item:nth-child(4n+5) {
   clear: left;
 }
-/* line 26, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 43, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item img {
   margin-bottom: 20px;
 }
-/* line 31, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 48, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item h2 {
   text-align: center;
 }
-/* line 36, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 53, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item a {
   display: block;
 }
-/* line 40, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 57, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item a:hover {
   text-decoration: none;
   border: 0;
 }
-/* line 47, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 64, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .short-description {
   display: block;
   text-align: center;
 }
-/* line 53, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 70, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price {
   text-align: center;
 }
-/* line 57, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 74, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price .price-left {
   text-align: center;
   padding-right: 6.66667px;
 }
-/* line 64, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 81, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price .price-right {
   display: none;
   text-align: right;
   padding-left: 6.66667px;
 }
 
-/* line 75, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 92, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection .collection-item {
   padding: 0;
 }
 @media (min-width: 450px) {
-  /* line 75, ../../../../../dev/sass/partials/modules/_collection.scss */
+  /* line 92, ../../../../../dev/sass/partials/modules/_collection.scss */
   #collection .collection-item {
     padding: 10px;
   }
 }
-/* line 88, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 105, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection #collection-sidebar .collection-sidebar-list {
   margin-bottom: 30px;
 }
-/* line 92, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 109, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection #collection-sidebar .collection-sidebar-list a {
   text-transform: uppercase;
   font-size: 13px;
@@ -2581,6 +2600,9 @@ table th, table td {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   position: relative;
+  font-size: 13px;
+  font-size: 0.8125em;
+  line-height: 19.5px;
 }
 @media (min-width: 450px) {
   /* line 87, ../../../../../dev/sass/partials/modules/_product.scss */
@@ -2588,33 +2610,34 @@ table th, table td {
     padding: 10px 0;
   }
 }
-/* line 103, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 104, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-variants ul li label.active {
-  border: 1px solid #6ee1cd;
-  background: #6ee1cd;
+  border: 1px solid #222222;
+  background: #222222;
+  color: white;
 }
-/* line 109, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 111, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-variants ul li label.sold-out {
   background: #e6e7e7;
   position: relative;
 }
 @media (min-width: 767px) {
-  /* line 109, ../../../../../dev/sass/partials/modules/_product.scss */
+  /* line 111, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-variants ul li label.sold-out {
     background: #aaa9a9;
   }
 }
-/* line 119, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 121, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-variants ul li label.sold-out:hover {
   border: 1px solid #222222;
   background: #aaa9a9;
 }
-/* line 126, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 128, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-variants ul li label:hover {
-  border: 1px solid #6ee1cd;
-  background: #6ee1cd;
+  border: 1px solid #e6e7e7;
+  background: #e6e7e7;
 }
-/* line 139, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 141, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .add-to-cart a {
   width: 100%;
   font-family: "GibsonRegular", arial, sans-serif;
@@ -2624,101 +2647,91 @@ table th, table td {
   line-height: 39px;
   text-align: center;
 }
-/* line 147, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 149, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .add-to-cart a.added-to-cart {
   background: #6ee1cd !important;
   border: 1px solid #6ee1cd !important;
 }
-/* line 157, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 159, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .add-to-wishlist.added {
   background: #6ee1cd !important;
   border: 1px solid #6ee1cd !important;
 }
-/* line 165, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 167, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .extra-message {
   text-align: center;
   display: block;
-  font-size: 20px;
-  font-size: 1.25em;
-  line-height: 30px;
-  margin: 10px 0 20px 0;
+  margin: 20px 0;
   padding-bottom: 4px;
 }
-/* line 179, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 181, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li {
   display: block;
-  border-bottom: 1px solid #aaa9a9;
+  border-bottom: 1px solid #c9c9c9;
 }
 @media (min-width: 767px) {
-  /* line 179, ../../../../../dev/sass/partials/modules/_product.scss */
+  /* line 181, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-tabs ul li {
-    border-right: 1px solid #222222;
-    border-left: 1px solid #222222;
-    border-bottom: 1px solid #222222;
+    border-right: 1px solid #c9c9c9;
+    border-left: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
   }
 }
-/* line 191, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 193, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li:first-child {
-  border-top: 1px solid #aaa9a9;
+  border-top: 1px solid #c9c9c9;
 }
 @media (min-width: 767px) {
-  /* line 191, ../../../../../dev/sass/partials/modules/_product.scss */
+  /* line 193, ../../../../../dev/sass/partials/modules/_product.scss */
   #product .product-details .product-tabs ul li:first-child {
-    border-top: 1px solid #222222;
+    border-top: 1px solid #c9c9c9;
   }
 }
-/* line 201, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 203, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header {
   display: block;
   text-transform: uppercase;
-  font-size: 20px;
-  font-size: 1.25em;
-  line-height: 30px;
-  padding: 10px 40px 10px 20px;
+  padding: 5px 40px 5px 20px;
   border: none;
   position: relative;
 }
-/* line 210, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 212, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header:hover {
   border: none;
 }
-/* line 215, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 217, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header:after {
   content: '+';
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 5px;
 }
-/* line 223, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 225, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header.active {
   color: #6ee1cd;
 }
-/* line 227, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 229, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-header.active:after {
   content: '-';
 }
-/* line 234, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 236, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-details .product-tabs ul li .product-tab-content {
   padding: 20px 20px 10px 20px;
   display: none;
-  border-top: 1px solid #222222;
+  border-top: 1px solid #c9c9c9;
   font-size: 18px;
   font-size: 1.125em;
   line-height: 27px;
+  background: #e6e7e7;
 }
-/* line 248, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 251, ../../../../../dev/sass/partials/modules/_product.scss */
 #product .product-related,
 #product .product-suggestions {
   text-align: center;
   margin-top: 40px;
 }
-/* line 253, ../../../../../dev/sass/partials/modules/_product.scss */
-#product .product-related h3,
-#product .product-suggestions h3 {
-  font-family: "GibsonRegular", arial, sans-serif;
-}
 
-/* line 260, ../../../../../dev/sass/partials/modules/_product.scss */
+/* line 263, ../../../../../dev/sass/partials/modules/_product.scss */
 .sale {
   text-decoration: line-through;
 }
@@ -2747,8 +2760,13 @@ table th, table td {
   font-size: 1.125em;
   line-height: 27px;
   margin: 0 0 0 40px;
+  font-family: "GibsonSemiBold", arial, sans-serif;
 }
-/* line 36, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 37, ../../../../../dev/sass/partials/modules/_cart.scss */
+#cart-page .cart-items ul > li.col-xs-12 {
+  padding: 0;
+}
+/* line 42, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-items ul .cart-item {
   font-size: 18px;
   font-size: 1.125em;
@@ -2763,20 +2781,20 @@ table th, table td {
   display: table;
   clear: both;
 }
-/* line 43, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 49, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-items ul .cart-item .title {
   text-transform: uppercase;
 }
-/* line 48, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 54, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-items ul .cart-item .remove-link {
   padding-top: 60px;
   display: block;
 }
-/* line 54, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 60, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-items ul .cart-item .cart-pull-right {
   text-align: right;
 }
-/* line 65, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 71, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .incrementors input {
   width: 50px;
   display: inline-block;
@@ -2784,60 +2802,60 @@ table th, table td {
   border: 0;
   text-align: center;
 }
-/* line 76, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 82, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer {
   margin-top: 20px;
 }
-/* line 80, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 86, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn {
   position: relative;
 }
-/* line 84, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 90, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner {
   position: absolute;
   bottom: 0;
   right: 20px;
   width: 240px;
 }
-/* line 91, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 97, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner span {
   display: block;
   text-transform: uppercase;
 }
-/* line 97, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 103, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-titles {
   margin-right: 40px;
   text-align: right;
   float: left;
 }
-/* line 103, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 109, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-titles .store-credit-title {
   color: #6ee1cd;
 }
-/* line 108, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 114, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-titles .subtotal-title {
   font-family: "GibsonSemiBold", arial, sans-serif;
   font-size: 20px;
   font-size: 1.25em;
   line-height: 30px;
 }
-/* line 115, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 121, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-values {
   text-align: right;
   float: right;
 }
-/* line 120, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 126, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-values .store-credit-value {
   color: #6ee1cd;
 }
-/* line 125, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 131, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .cart-footer-values .subtotal-value {
   font-family: "GibsonSemiBold", arial, sans-serif;
   font-size: 20px;
   font-size: 1.25em;
   line-height: 30px;
 }
-/* line 132, ../../../../../dev/sass/partials/modules/_cart.scss */
+/* line 138, ../../../../../dev/sass/partials/modules/_cart.scss */
 #cart-page .cart-footer .cart-footer-checkout-btn .cart-footer-checkout-btn-inner .checkout-btn {
   padding: 13px 60px;
   float: right;

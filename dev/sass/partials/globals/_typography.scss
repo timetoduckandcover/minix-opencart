@@ -30,7 +30,7 @@ html {
 
 body, input, textarea, select, button, p, a {
 
-    @include font(16);
+    @include font(15);
     color: $col-black;
     font-family: $gibsonregular;
 }
