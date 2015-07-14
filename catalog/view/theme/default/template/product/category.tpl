@@ -1,9 +1,16 @@
 <?php echo $header; ?>
 
 <!-- if collection has featured image -->
-<?php if ($thumb) { ?>
-<img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-full" />
-<?php } ?>
+<div class="page-header-image-collection">
+  <?php if ($thumb) { ?>
+    <img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-full" />
+    <div class="caption">
+      <h1 class="beta"><?php echo $heading_title; ?></h1>
+      <!-- below caption is optional (if exists) -->
+      <p>Optional subheader. Visible only if copy is added in CMS.</p>
+    </div>
+  <?php } ?>
+</div>
 <!-- endif -->
 
 <div class="header-push less">
@@ -16,15 +23,16 @@
       <div class="row">
 
         <!-- Mobile header -->
-        <div class="col-xs-12">
-          <h1 class="gamma hide-large"><?php echo $heading_title; ?></h1>
+        <div class="col-xs-12 mb">
+          <h2 class="gamma"><?php echo $heading_title; ?></h2>
         </div>
 
         <!-- Collection sidebar -->
         <div class="col-xs-12 col-md-3 hide-small">
-          <h3 class="epsilon">Categories</h3>
+          <!-- <h3 class="epsilon">Categories</h3> -->
           <ul>
             <?php foreach ($categories as $category) { ?>
+              <!-- link below needs class of 'active' if it's the selected category -->
               <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
             <?php } ?>
           </ul>

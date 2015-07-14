@@ -50,7 +50,7 @@ input[type="tel"] {
 	display: block;
 	width: 100%;
 	max-width: $inputMaxWidth;
-	padding: $baseline/2;
+	padding: 12px $baseline/2;
 }
 
 select,

@@ -4,14 +4,17 @@
 // ============================================================
 
 @font-face {
+    
     font-family: 'GibsonRegular';
     src: url(../fonts/canada_type_-_gibson-regular-webfont.ttf);
 }
 @font-face {
+    
     font-family: 'GibsonSemiBold';
     src: url(../fonts/canada_type_-_gibson-semibold-webfont.ttf);
 }
 @font-face {
+    
     font-family: 'GibsonLight';
     src: url(../fonts/canada_type_-_gibson-light-webfont.ttf);
 }
@@ -27,7 +30,7 @@ html {
 
 body, input, textarea, select, button, p, a {
 
-    @include font(15);
+    @include font(16);
     color: $col-black;
     font-family: $gibsonregular;
 }

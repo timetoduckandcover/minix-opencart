@@ -16,5 +16,13 @@
 		position: absolute;
 		top: $baseline;
 		right: $baseline*1.5;
+		color: $col-lightgrey;
+
+		&:hover {
+
+			text-decoration: none;
+			color: $col-black;
+			border-bottom: 2px solid transparent;
+		}
 	}
 }

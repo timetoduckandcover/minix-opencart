@@ -14,7 +14,7 @@
 
 	h3 {
 
-		border-bottom: 1px solid $col-black;
+		border-bottom: 1px solid $col-grey;
 		padding: 0 0 $baseline/1.5 $baseline;
 		@include font(19);
 	}
@@ -30,7 +30,7 @@
 
 		@include cf;
 		padding: $baseline 0;
-		border-bottom: 1px solid $col-black;
+		border-bottom: 1px solid $col-grey;
 		position: relative;
 
 		.cart-item-left {

@@ -78,38 +78,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   src: url(../fonts/canada_type_-_gibson-light-webfont.ttf);
 }
 
-/* line 23, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 26, ../../../../../dev/sass/partials/globals/_typography.scss */
 html {
   font-size: 100%;
 }
 
-/* line 28, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 31, ../../../../../dev/sass/partials/globals/_typography.scss */
 body, input, textarea, select, button, p, a {
-  font-size: 15px;
-  font-size: 0.9375em;
-  line-height: 22.5px;
+  font-size: 16px;
+  font-size: 1em;
+  line-height: 24px;
   color: #222222;
   font-family: "GibsonRegular", arial, sans-serif;
 }
 
-/* line 35, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 38, ../../../../../dev/sass/partials/globals/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "GibsonSemiBold", arial, sans-serif;
   text-transform: uppercase;
 }
-/* line 40, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 43, ../../../../../dev/sass/partials/globals/_typography.scss */
 h1.mb, h2.mb, h3.mb, h4.mb, h5.mb, h6.mb {
   margin-bottom: 10px;
 }
 
-/* line 45, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 48, ../../../../../dev/sass/partials/globals/_typography.scss */
 h1, .h1, .alpha {
   font-size: 36px;
   font-size: 2.25em;
   line-height: 54px;
 }
 @media (min-width: 767px) {
-  /* line 45, ../../../../../dev/sass/partials/globals/_typography.scss */
+  /* line 48, ../../../../../dev/sass/partials/globals/_typography.scss */
   h1, .h1, .alpha {
     font-size: 48px;
     font-size: 3em;
@@ -117,49 +117,49 @@ h1, .h1, .alpha {
   }
 }
 
-/* line 55, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 58, ../../../../../dev/sass/partials/globals/_typography.scss */
 h2, .h2, .beta {
   font-size: 32px;
   font-size: 2em;
   line-height: 48px;
 }
 
-/* line 60, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 63, ../../../../../dev/sass/partials/globals/_typography.scss */
 h3, .h3, .gamma {
   font-size: 25px;
   font-size: 1.5625em;
   line-height: 37.5px;
 }
 
-/* line 65, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 68, ../../../../../dev/sass/partials/globals/_typography.scss */
 h4, .h4, .delta {
   font-size: 22px;
   font-size: 1.375em;
   line-height: 33px;
 }
 
-/* line 70, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 73, ../../../../../dev/sass/partials/globals/_typography.scss */
 h5, .h5, .epsilon {
   font-size: 16px;
   font-size: 1em;
   line-height: 24px;
 }
 
-/* line 74, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 77, ../../../../../dev/sass/partials/globals/_typography.scss */
 h6, .h6, .zeta {
   font-size: 15px;
   font-size: 0.9375em;
   line-height: 22.5px;
 }
 
-/* line 79, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 82, ../../../../../dev/sass/partials/globals/_typography.scss */
 .mega {
   font-size: 72px;
   font-size: 4.5em;
   line-height: 108px;
 }
 
-/* line 85, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 88, ../../../../../dev/sass/partials/globals/_typography.scss */
 small,
 .tiny {
   font-size: 14px;
@@ -167,28 +167,28 @@ small,
   line-height: 21px;
 }
 
-/* line 90, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 93, ../../../../../dev/sass/partials/globals/_typography.scss */
 p {
   margin-bottom: 10px;
 }
 
-/* line 95, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 98, ../../../../../dev/sass/partials/globals/_typography.scss */
 strong {
   font-family: "GibsonSemiBold", arial, sans-serif;
 }
 
-/* line 100, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 103, ../../../../../dev/sass/partials/globals/_typography.scss */
 em {
   font-style: italic;
 }
 
-/* line 105, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 108, ../../../../../dev/sass/partials/globals/_typography.scss */
 .alert {
   display: block;
   margin: 10px 0 20px 0;
   max-width: 550px;
 }
-/* line 111, ../../../../../dev/sass/partials/globals/_typography.scss */
+/* line 114, ../../../../../dev/sass/partials/globals/_typography.scss */
 .alert.alert-danger {
   color: #c97386;
 }
@@ -329,7 +329,7 @@ input[type="tel"] {
   display: block;
   width: 100%;
   max-width: 100%;
-  padding: 10px;
+  padding: 12px 10px;
 }
 
 /* line 57, ../../../../../dev/sass/partials/globals/_forms.scss */
@@ -1618,15 +1618,23 @@ a.upper {
 a.no-underline:hover {
   border-bottom: 2px solid transparent !important;
 }
-/* line 45, ../../../../../dev/sass/partials/globals/_links.scss */
+/* line 32, ../../../../../dev/sass/partials/globals/_links.scss */
+a.no-underline:hover:after {
+  background: transparent !important;
+}
+/* line 50, ../../../../../dev/sass/partials/globals/_links.scss */
 a:hover {
   text-decoration: none;
   border-bottom: 2px solid #6ee1cd;
 }
-/* line 51, ../../../../../dev/sass/partials/globals/_links.scss */
+/* line 56, ../../../../../dev/sass/partials/globals/_links.scss */
 a:active {
   text-decoration: none;
   border: 0;
+}
+/* line 62, ../../../../../dev/sass/partials/globals/_links.scss */
+a.active {
+  text-decoration: underline;
 }
 
 /* line 6, ../../../../../dev/sass/partials/globals/_lists.scss */
@@ -1926,7 +1934,7 @@ table th, table td {
 }
 /* line 133, ../../../../../dev/sass/partials/modules/_header.scss */
 .global-header .visible-nav > ul > li .sub-nav .sub-nav-list {
-  border-right: 1px solid #222222;
+  border-right: 1px solid #c9c9c9;
 }
 /* line 137, ../../../../../dev/sass/partials/modules/_header.scss */
 .global-header .visible-nav > ul > li .sub-nav .sub-nav-list:last-child {
@@ -2177,12 +2185,13 @@ table th, table td {
 /* line 5, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer {
   padding: 20px 0;
+  background: #e6e7e7;
 }
-/* line 9, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 10, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer h4 {
   margin-bottom: 40px;
 }
-/* line 19, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 20, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer .footer-newsletter form input[type="text"], .global-footer .footer-newsletter form select,
 .global-footer .footer-newsletter form textarea,
 .global-footer .footer-newsletter form input[type="submit"] {
@@ -2191,19 +2200,20 @@ table th, table td {
   font-size: 1em;
   line-height: 24px;
 }
-/* line 25, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 26, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer .footer-newsletter form input[type="email"] {
-  background: #e6e7e7;
+  border: 0;
+  text-transform: capitalize;
 }
-/* line 31, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 34, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer .footer-newsletter form #mce-responses {
   margin-bottom: 20px;
 }
-/* line 35, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 38, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer .footer-newsletter form #mce-responses #mce-error-response {
   color: #c97386;
 }
-/* line 40, ../../../../../dev/sass/partials/modules/_footer.scss */
+/* line 43, ../../../../../dev/sass/partials/modules/_footer.scss */
 .global-footer .footer-newsletter form #mce-responses #mce-success-response {
   color: #6ee1cd;
 }
@@ -2404,69 +2414,86 @@ table th, table td {
   margin-top: 40px;
 }
 
-/* line 2, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 3, ../../../../../dev/sass/partials/modules/_collection.scss */
+.page-header-image-collection {
+  position: relative;
+}
+/* line 7, ../../../../../dev/sass/partials/modules/_collection.scss */
+.page-header-image-collection .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* line 15, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item {
   position: relative;
   padding: 20px;
   margin-bottom: 40px;
 }
-/* line 8, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 21, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item:nth-child(4n+5) {
   clear: left;
 }
-/* line 13, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 26, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item img {
   margin-bottom: 20px;
 }
-/* line 18, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 31, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item h2 {
   text-align: center;
 }
-/* line 23, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 36, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item a {
   display: block;
 }
-/* line 27, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 40, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item a:hover {
   text-decoration: none;
   border: 0;
 }
-/* line 34, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 47, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .short-description {
   display: block;
   text-align: center;
 }
-/* line 40, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 53, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price {
   text-align: center;
 }
-/* line 44, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 57, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price .price-left {
   text-align: center;
   padding-right: 6.66667px;
 }
-/* line 51, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 64, ../../../../../dev/sass/partials/modules/_collection.scss */
 .collection-item .price .price-right {
   display: none;
   text-align: right;
   padding-left: 6.66667px;
 }
 
-/* line 62, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 75, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection .collection-item {
   padding: 0;
 }
 @media (min-width: 450px) {
-  /* line 62, ../../../../../dev/sass/partials/modules/_collection.scss */
+  /* line 75, ../../../../../dev/sass/partials/modules/_collection.scss */
   #collection .collection-item {
     padding: 10px;
   }
 }
-/* line 75, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 88, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection #collection-sidebar .collection-sidebar-list {
   margin-bottom: 30px;
 }
-/* line 79, ../../../../../dev/sass/partials/modules/_collection.scss */
+/* line 92, ../../../../../dev/sass/partials/modules/_collection.scss */
 #collection #collection-sidebar .collection-sidebar-list a {
   text-transform: uppercase;
   font-size: 13px;
@@ -2835,7 +2862,7 @@ table th, table td {
 }
 /* line 15, ../../../../../dev/sass/partials/modules/_cart-quickview.scss */
 .cart-quickview h3 {
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #c9c9c9;
   padding: 0 0 13.33333px 20px;
   font-size: 19px;
   font-size: 1.1875em;
@@ -2851,7 +2878,7 @@ table th, table td {
 .cart-quickview .cart-item {
   *zoom: 1;
   padding: 20px 0;
-  border-bottom: 1px solid #222222;
+  border-bottom: 1px solid #c9c9c9;
   position: relative;
 }
 /* line 38, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -3476,6 +3503,13 @@ table th, table td {
   position: absolute;
   top: 20px;
   right: 30px;
+  color: #e6e7e7;
+}
+/* line 21, ../../../../../dev/sass/partials/modules/_popup-general.scss */
+.black-popup .black-popup-close:hover {
+  text-decoration: none;
+  color: #222222;
+  border-bottom: 2px solid transparent;
 }
 
 /* line 6, ../../../../../dev/sass/misc/_helpers.scss */

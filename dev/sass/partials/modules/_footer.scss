@@ -5,6 +5,7 @@
 .global-footer {
 
 	padding: $baseline 0;
+	background: $col-lightgrey;
 
 	h4 {
 
@@ -24,8 +25,10 @@
 
 			input[type="email"] {
 
-				background: $col-lightgrey;
+				//background: $col-lightgrey;
 				// text-transform: uppercase;
+				border: 0;
+				text-transform: capitalize;
 			}
 
 			#mce-responses {

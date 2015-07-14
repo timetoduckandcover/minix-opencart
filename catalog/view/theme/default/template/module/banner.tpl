@@ -24,6 +24,7 @@
           
           <div class="caption">
             <h2><?php echo $banner['title']; ?></h2>
+            <p>Optional subheader. Visible only if copy is added in CMS</p>
             <?php if ($banner['link']) { ?>
               <a href="<?php echo $banner['link']; ?>" class="btn large">Shop Now</a>
             <?php } ?>
