@@ -2081,10 +2081,10 @@ window.onresize = function() {
 // Header promo banner 
 setTimeout(function() {
 
-	$('.header-promo-banner').slideDown().addClass('active');
+	$('.common-home .header-promo-banner').slideDown().addClass('active');
 
 	// Set top value of sub-nav based on whether promo message is visible or not
-	if($('.header-promo-banner').hasClass('active')) {
+	if($('.common-home .header-promo-banner').hasClass('active')) {
 
 		$('.sub-nav').css({"top" : "89px"});
 	} else {
